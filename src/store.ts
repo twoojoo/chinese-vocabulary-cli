@@ -85,6 +85,7 @@ export class Store {
 		}
 
 		const data = await this.llm.getWordData(word)
+		data.translations = data.translations?.map(t => t.trim()) || []
 		data.comment = comment || data.comment || ""
 		data.level = level ?? -1;
 		data.createdAt = new Date().toISOString();
@@ -182,7 +183,7 @@ export type DeckWordData = {
 	tone: string
 	note: string
 	sentenceTranslation: string
-	definition: string
+	translations: string[]
 	comment: string
 	pinyin: string
 	sentencePinyin: string

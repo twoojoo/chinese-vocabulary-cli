@@ -1,5 +1,5 @@
 import { ChatOpenAI } from "@langchain/openai";
-import { DeckPhrase, DeckWordData } from "./store";
+import { DeckWordData } from "./store";
 
 export class LLM {
 	constructor(private apiKey: string) {}
@@ -70,7 +70,7 @@ export class LLM {
 		});
 
 		const prompt = `Provide the definition and pinyin for the word "${word}" in Chinese Simplified. Format your response as JSON with keys 
-			"definition" (literal translation of the word in English. If more than one transaltion, seprate them with commas+space. Don't add anything else here),
+			"translations" (array with all literal translations of the word in English, if the word has multiple meanings, provide all of them in an array. Just the literal translations, no explanations),
 			"note": (if the literal translation does not fully capture the meaning, provide a brief explanation of the word's usage or context, otherwise just an empty string),
 			"pinyin" (the pinyin transcription of the word with the correct tone), 
 			"tone" (1, 2, 3, 4 or "-" for neutral tone)

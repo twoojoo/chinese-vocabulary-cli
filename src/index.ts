@@ -3,6 +3,9 @@ import { DeckWordData, getStore } from "./store.js"
 import table from "as-table"
 import readline from "readline"
 
+const GREEN_TICK = "\x1b[32m✓\x1b[0m"
+const RED_CROSS = "\x1b[31m✗\x1b[0m"
+
 const cli = new Command("zzcli")
 
 const deck = new Command("deck")
@@ -236,52 +239,105 @@ word.command("test")
 
 			const allWords: string[] = Object.keys(words)
 			const successWords: string[] = []
-			const pinyinErrors: string[] = []
-			const englishErrors: string[] = []
-			const chineseErrors: string[] = []
-			const sentenceErrors: string[] = []
+			const chPiErrors: string[] = []
+			const chEnErrors: string[] = []
+			const enChErrors: string[] = []
+			const enPiErrors: string[] = []
+			let count = 0
 
 			for (let i = 0; i < options.number; i++) {
+				if (i > 0) {
+					console.log()
+				}
+
+				if (allWords.length === 0) {
+					console.log("No more words available for testing in this deck.")
+					break
+				}
+
+				count++
+
 				const randomIndex = Math.floor(Math.random() * allWords.length)
+
 				const word = allWords[randomIndex]
 				const wordData = words[word]
+
+				allWords.splice(randomIndex, 1) // Remove the word from the pool to avoid repetition
 
 				const testKind = options.kind != "mixed" 
 					? options.kind 
 					: Math.random() < 0.25
-						? "pinyin" // given character, guess pinyin
+						? "chinese-pinyin" // given character, guess pinyin
 						: Math.random() < 0.33
-							? "english" // given character, guess english translation
+							? "chinese-english" // given character, guess english translation
 							: Math.random() < 0.5
-								? "chinese" // given pinyin, guess chinese characters
-								: "sentence" // given char and pinyin, create meaningful sentence 
+								? "english-chinese" // given english, guess chinese characters
+								: "english-pinyin" // given english, guess pinyin
 
 				switch (testKind) {
-					case "pinyin": {
-						const response = await askQuestion(`What is the pinyin for "${word}"? `)
-						if (response.trim().toLowerCase() === wordData.pinyin.toLowerCase()) {
+					case "chinese-pinyin": {
+						const response = await askQuestion(`${i + 1}. What is the pinyin for "${word}"? `)
+						if (parseTone(response.trim()) === wordData.pinyin.toLowerCase()) {
 							successWords.push(word)
-							console.log(`Correct! Pinyin for "${word}" is "${wordData.pinyin}".`)
+							console.log(GREEN_TICK, `Correct! Pinyin for "${word}" is "${wordData.pinyin}".`)
 						} else {
-							pinyinErrors.push(word)
-							console.log(`Incorrect! The correct pinyin is "${wordData.pinyin}".`)
+							chPiErrors.push(word)
+							console.log(RED_CROSS, `Incorrect! The correct pinyin is "${wordData.pinyin}".`)
 						}
+						break;
 					}
-					case "english": {
-						const response = await askQuestion(`What is the English translation for "${word}"? `)
-						if (response.trim().toLowerCase().includes(wordData.definition.toLowerCase())) {
+					case "chinese-english": {
+						const response = await askQuestion(`${i + 1}. What is the English translation for "${word}"? `)
+
+						if (isStringIncludedInArray(wordData.translations, response)) {
 							successWords.push(word)
-							console.log(`Correct! The translation for "${word}" is "${wordData.definition}".`)
+							console.log(GREEN_TICK, `Correct! The translation for "${word}" is "${response}" ${wordData.translations.length ? "(" + wordData.translations.join(", ") + ")" : ""}.`)
 						} else {
-							englishErrors.push(word)
-							console.log(`Incorrect! The correct translation is "${wordData.definition}".`)
+							chEnErrors.push(word)
+							console.log(RED_CROSS, `Incorrect! The correct translation/s is/are ${wordData.translations.join(", ")}".`)
 						}
+						break;
+					}
+					case "english-chinese": {
+						const response = await askQuestion(`${i + 1}. What are the Chinese characters for ${wordData.translations.join(", ")}? `)
+
+						if (compareStrings(response, word)) {
+							successWords.push(word)
+							console.log(GREEN_TICK, `Correct! The Chinese characters for "${wordData.translations.join(", ")}" is "${word}".`)
+						} else {
+							enChErrors.push(word)
+							console.log(RED_CROSS, `Incorrect! The correct characters are "${word}".`)
+						}
+						break;
+					}
+					case "english-pinyin": {
+						const response = await askQuestion(`${i + 1}. What is the pinyin for ${wordData.translations.join(", ")}? `)
+
+						if (compareStrings(parseTone(response), wordData.pinyin)) {
+							successWords.push(word)
+							console.log(GREEN_TICK, `Correct! The pinyin for "${wordData.translations.join(", ")}" is "${wordData.pinyin}".`)
+						} else {
+							enPiErrors.push(word)
+							console.log(RED_CROSS, `Incorrect! The correct pinyin is "${wordData.pinyin}".`)
+						}
+						break;
+					}
+					default: {
+						throw new Error(`Unknown test kind: ${testKind}`)
 					}
 				}
-
 			}
 
+			console.log(`\nTest completed!`)
+			console.log(`Total words tested: ${count}`)
+			console.log(GREEN_TICK, `Successfully answered: ${successWords.length} words`)
+			console.log(RED_CROSS, `Total errors: ${chPiErrors.length + chEnErrors.length + enChErrors.length + enPiErrors.length} words`)
+			console.log(`Chinese → Pinyin errors: ${chPiErrors.length} words`)
+			console.log(`Chinese → English errors: ${chEnErrors.length} words`)
+			console.log(`English → Chinese errors: ${enChErrors.length} words`)
+			console.log(`English → Pinyin errors: ${enPiErrors.length} words`)
 		} catch (err: any) {
+			console.error(err)
 			console.error(err.message)
 		}
 	})
@@ -362,7 +418,7 @@ function printWords(words: Record<string, DeckWordData>) {
 		Name: name,
 		Pinyin: word.pinyin || "-",
 		Tone: word.tone || "-",
-		Translations: word.definition || "-",
+		Translations: word.translations || "-",
 		Note: word.note || "-",
 		["Example Sentence"]: word.sentence || "-",
 		["Sentence Pinyin"]: word.sentencePinyin || "-",
@@ -394,3 +450,66 @@ function askQuestion(question: string): Promise<string> {
 		});
 	});
 }
+
+function compareStrings(str1: string, str2: string): boolean {
+	return str1.trim().toLowerCase() === str2.trim().toLowerCase();
+}
+
+function isStringIncludedInArray(arr: string[], str: string): boolean {
+	return arr.some(item => compareStrings(item, str));
+}
+
+
+function parseTone(pinyin: string): string {
+	const vowels = ['a', 'e', 'i', 'o', 'u', 'ü'];
+
+	const vowelTones: Record<string, string[]> = {
+		a: ["a", 'ā', 'á', 'ǎ', 'à'],
+		e: ["e", 'ē', 'é', 'ě', 'è'],
+		i: ["i", 'ī', 'í', 'ǐ', 'ì'],
+		o: ["o", 'ō', 'ó', 'ǒ', 'ò'],
+		u: ["u", 'ū', 'ú', 'ǔ', 'ù'],
+		'ü': ["ü", 'ǖ', 'ǘ', 'ǚ', 'ǜ']
+	}
+
+	// 1: AA
+	// 2: aA
+	// 3: AaA
+	// 4: Aa
+
+	//detect if any vowel is written as a combination of those ones (1 to 4)
+	if (!pinyin || pinyin.length === 0) {
+		return "";
+	}
+
+	let tone = 0
+	let str = ""
+	for (const vowel of vowels) {
+		if (pinyin.includes(vowel.toUpperCase() + vowel.toUpperCase())) {
+			tone = 1;
+			str = pinyin.replace(new RegExp(vowel.toUpperCase() + vowel.toUpperCase(), 'g'), vowelTones[vowel][tone]);
+			break;
+		}
+
+		if (pinyin.includes(vowel + vowel.toLowerCase())) {
+			tone = 2;
+			str = pinyin.replace(new RegExp(vowel + vowel.toLowerCase(), 'g'), vowelTones[vowel][tone]);
+			break;
+		}
+
+		if (pinyin.includes(vowel.toUpperCase() + vowel + vowel.toUpperCase())) {
+			tone = 3;
+			str = pinyin.replace(new RegExp(vowel.toUpperCase() + vowel + vowel.toUpperCase(), 'g'), vowelTones[vowel][tone]);
+			break;
+		}
+
+		if (pinyin.includes(vowel.toUpperCase() + vowel)) {
+			str = pinyin.replace(new RegExp(vowel.toUpperCase() + vowel, 'g'), vowelTones[vowel][0]);
+			tone = 4;
+			break;
+		}
+	}
+
+	return str
+}
+
