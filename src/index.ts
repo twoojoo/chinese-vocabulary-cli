@@ -2,7 +2,7 @@ import { Command } from "commander"
 import { DeckWordData, getStore } from "./store.js"
 import table from "as-table"
 
-const cli = new Command("zhongcli")
+const cli = new Command("zzcli")
 
 const deck = new Command("deck")
 	.alias("d")
@@ -16,7 +16,7 @@ const phrase = new Command("phrase")
 	.alias("p")
 	.description("Manage your phrases")
 
-const llm = new Command("openai")
+const llm = new Command("llm")
 	.description("Manage LLM operations")
 
 deck.command("add <name>")
