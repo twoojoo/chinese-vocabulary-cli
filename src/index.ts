@@ -16,7 +16,7 @@ const phrase = new Command("phrase")
 	.alias("p")
 	.description("Manage your phrases")
 
-const llm = new Command("llm")
+const llm = new Command("openai")
 	.description("Manage LLM operations")
 
 deck.command("add <name>")
@@ -90,9 +90,9 @@ word.command("set-level <word> <level>")
 		try {
 			const store = getStore()
 			let wordData = store.getDeckWord(options.deck, word)
-			wordData.level= parseWordLevel(level)
+			wordData.level = parseWordLevel(level)
 			wordData = store.updateDeckWord(options.deck, word, wordData)
-			printWords({ [ word]: wordData })
+			printWords({ [word]: wordData })
 		} catch (err: any) {
 			console.error(err.message)
 		}
