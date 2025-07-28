@@ -13,8 +13,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@langchain/openai": "^0.6.3",
     "as-table": "^1.0.55",
-    "commander": "^14.0.0"
+    "commander": "^14.0.0",
+    "langchain": "^0.3.30"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",

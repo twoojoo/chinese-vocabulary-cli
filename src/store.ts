@@ -1,10 +1,19 @@
 import fs from "fs"
+import { LLM } from "./llm"
 
 export class Store {
 	private data: StoreData = { decks: {} }
+	private llm: LLM = new LLM("");
 
 	constructor(json: string) {
 		this.data = JSON.parse(json)
+		this.llm = new LLM(this.data.llmApiKey || process.env.OPENAI_API_KEY || "");
+	}
+
+	setLlmApiKey(apiKey: string): void {
+		this.data.llmApiKey = apiKey
+		this.llm = new LLM(apiKey);
+		this.persist()
 	}
 
 	listDecks(): Record<string, Deck> {
@@ -18,11 +27,15 @@ export class Store {
 		return this.data.decks[name]
 	}
 
-	hasDeck(name: string): boolean {
+	hasDeck(name: string): boolean {		
 		return !!this.data.decks[name]
 	}
 
 	removeDeck(name: string): void {
+		if (name === "default") {
+			throw new Error("Cannot remove the default deck.")
+		}
+
 		if (!this.data.decks[name]) {
 			throw new Error(`Deck with name "${name}" does not exist.`)
 		}
@@ -40,7 +53,30 @@ export class Store {
 		this.persist()
 	}
 
-	addDeckWord(name: string, word: string, data: DeckWordData): void {
+	getDeckWord(name: string, word: string): DeckWordData {
+		if (!this.data.decks[name]) {
+			throw new Error(`Deck with name "${name}" does not exist.`)
+		}
+		if (!this.data.decks[name].words[word]) {
+			throw new Error(`Word "${word}" does not exist in deck "${name}".`)
+		}
+
+		return this.data.decks[name].words[word]
+	}
+
+	setWordCommenct(name: string, word: string, comment: string): void {
+		if (!this.data.decks[name]) {
+			throw new Error(`Deck with name "${name}" does not exist.`)
+		}
+		if (!this.data.decks[name].words[word]) {
+			throw new Error(`Word "${word}" does not exist in deck "${name}".`)
+		}
+
+		this.data.decks[name].words[word].comment = comment
+		this.persist()
+	}
+
+	async addDeckWord(name: string, word: string, comment: string, level: number): Promise<DeckWordData> {
 		if (!this.data.decks[name]) {
 			throw new Error(`Deck with name "${name}" does not exist.`)
 		}
@@ -48,8 +84,13 @@ export class Store {
 			throw new Error(`Word "${word}" already exists in deck "${name}".`)
 		}
 
+		const data = await this.llm.getWordData(word)
+		data.comment = comment || data.comment || ""
+		data.level = level || -1;
+
 		this.data.decks[name].words[word] = data
 		this.persist()
+		return data
 	}
 
 	removeDeckWord(name: string, word: string): void {
@@ -64,7 +105,7 @@ export class Store {
 		this.persist()
 	}
 
-	updateDeckWord(name: string, word: string, data: DeckWordData): void {
+	updateDeckWord(name: string, word: string, data: DeckWordData): DeckWordData {
 		if (!this.data.decks[name]) {
 			throw new Error(`Deck with name "${name}" does not exist.`)
 		}
@@ -74,6 +115,7 @@ export class Store {
 
 		this.data.decks[name].words[word] = data
 		this.persist()
+		return data
 	}
 
 	deckHasWord(name: string, word: string): boolean {
@@ -100,22 +142,57 @@ export class Store {
 			throw err
 		}
 	}
+
+	generateDeckPhrase(name: string, words: string[], word?: string): Promise<string> {
+		if (!this.data.decks[name]) {
+			throw new Error(`Deck with name "${name}" does not exist.`)
+		}
+
+		if (words.length === 0) {
+			throw new Error("No words provided for phrase generation.")
+		}
+
+		return this.llm.generatePhrase(words, word)
+	}
 }
 
 export type StoreData = {
+	llmApiKey?: string
 	decks: Record<string, Deck>
 }
 
 export type Deck = {
 	words: Record<string, DeckWordData>
+	phrases?: Record<string, DeckPhrase>
 	description?: string
 }
 
 export type DeckWordData = {
-	sentence?: string
-	definition?: string
+	sentence: string
+	tone: string
+	sentenceTranslation: string
+	definition: string
+	comment: string
+	pinyin: string
+	sentencePinyin: string
+	sentenceDefinition: string
+	level: number
+}
+
+export type DeckPhrase = {
+	pinyin: string
+	translation: string
 	comment?: string
-	pinyin?: string
+}
+
+const baseStore: StoreData = {
+	decks: {
+		default: {
+			words: {},
+			phrases: {},
+			description: "Default Deck"
+		}
+	}
 }
 
 export function getStore(): Store {
@@ -124,7 +201,7 @@ export function getStore(): Store {
 		return new Store(data)
 	} catch (error: any) {
 		if (error.code === "ENOENT") {
-			const deck = JSON.stringify({ decks: {} }, null, 2)
+			const deck = JSON.stringify(baseStore, null, 2)
 			fs.writeFileSync("store.json", deck)
 			return new Store(deck)
 		} else {
