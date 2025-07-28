@@ -237,12 +237,32 @@ word.command("test")
 				return
 			}
 
-			const allWords: string[] = Object.keys(words)
+			let allTestCases: Record<string, string[]> = {
+				["chinese-pinyin"]: Object.keys(words).filter(word => words[word].pinyin && words[word].pinyin.length > 0),
+				["chinese-english"]: Object.keys(words).filter(word => words[word].translations.length > 0),
+				["english-chinese"]: Object.keys(words).filter(word => words[word].translations.length > 0),
+				["english-pinyin"]: Object.keys(words).filter(word => words[word].pinyin && words[word].pinyin.length > 0)
+			}
+
+			let errors: Record<string, string[]> = {
+				["chinese-pinyin"]: [],
+				["chinese-english"]: [],
+				["english-chinese"]: [],
+				["english-pinyin"]: [],
+			}
+
+
+			if (options.kind != "mixed") {
+				if (!Object.keys(allTestCases).includes(options.kind)) {
+					throw new Error(`Unknown test kind: ${options.kind}. Available kinds: ${Object.keys(allTestCases).join(", ")}`)
+				}
+
+				allTestCases = {
+					[options.kind]: allTestCases[options.kind]
+				}
+			} 
+
 			const successWords: string[] = []
-			const chPiErrors: string[] = []
-			const chEnErrors: string[] = []
-			const enChErrors: string[] = []
-			const enPiErrors: string[] = []
 			let count = 0
 
 			for (let i = 0; i < options.number; i++) {
@@ -250,29 +270,25 @@ word.command("test")
 					console.log()
 				}
 
-				if (allWords.length === 0) {
+				const remainingTestCases = Object.values(allTestCases).reduce((acc, arr) => acc + arr.length, 0)
+				if (remainingTestCases < 1) {
 					console.log("No more words available for testing in this deck.")
 					break
 				}
 
 				count++
 
-				const randomIndex = Math.floor(Math.random() * allWords.length)
+				const testKindIdx = Math.floor(Math.random() * Object.keys(allTestCases).length)
+				const testKind = Object.keys(allTestCases)[testKindIdx]
+				const wordIndex = Math.floor(Math.random() * allTestCases[testKind].length)
 
-				const word = allWords[randomIndex]
+				const word = allTestCases[testKind][wordIndex]
 				const wordData = words[word]
-
-				allWords.splice(randomIndex, 1) // Remove the word from the pool to avoid repetition
-
-				const testKind = options.kind != "mixed" 
-					? options.kind 
-					: Math.random() < 0.25
-						? "chinese-pinyin" // given character, guess pinyin
-						: Math.random() < 0.33
-							? "chinese-english" // given character, guess english translation
-							: Math.random() < 0.5
-								? "english-chinese" // given english, guess chinese characters
-								: "english-pinyin" // given english, guess pinyin
+				
+				allTestCases[testKind].splice(wordIndex, 1) // Remove the tested word from the list
+				if (allTestCases[testKind].length === 0) {
+					delete allTestCases[testKind] // Remove the test kind if no words left
+				}
 
 				switch (testKind) {
 					case "chinese-pinyin": {
@@ -281,7 +297,7 @@ word.command("test")
 							successWords.push(word)
 							console.log(GREEN_TICK, `Correct! Pinyin for "${word}" is "${wordData.pinyin}".`)
 						} else {
-							chPiErrors.push(word)
+							errors["chinese-pinyin"].push(word)
 							console.log(RED_CROSS, `Incorrect! The correct pinyin is "${wordData.pinyin}".`)
 						}
 						break;
@@ -293,7 +309,7 @@ word.command("test")
 							successWords.push(word)
 							console.log(GREEN_TICK, `Correct! The translation for "${word}" is "${response}" ${wordData.translations.length ? "(" + wordData.translations.join(", ") + ")" : ""}.`)
 						} else {
-							chEnErrors.push(word)
+							errors["chinese-english"].push(word)
 							console.log(RED_CROSS, `Incorrect! The correct translation/s is/are ${wordData.translations.join(", ")}".`)
 						}
 						break;
@@ -305,7 +321,7 @@ word.command("test")
 							successWords.push(word)
 							console.log(GREEN_TICK, `Correct! The Chinese characters for "${wordData.translations.join(", ")}" is "${word}".`)
 						} else {
-							enChErrors.push(word)
+							errors["english-chinese"].push(word)
 							console.log(RED_CROSS, `Incorrect! The correct characters are "${word}".`)
 						}
 						break;
@@ -317,7 +333,7 @@ word.command("test")
 							successWords.push(word)
 							console.log(GREEN_TICK, `Correct! The pinyin for "${wordData.translations.join(", ")}" is "${wordData.pinyin}".`)
 						} else {
-							enPiErrors.push(word)
+							errors["english-pinyin"].push(word)
 							console.log(RED_CROSS, `Incorrect! The correct pinyin is "${wordData.pinyin}".`)
 						}
 						break;
@@ -328,14 +344,16 @@ word.command("test")
 				}
 			}
 
+			const totalErrors = Object.values(errors).reduce((acc, arr) => acc + arr.length, 0)
+
 			console.log(`\nTest completed!`)
 			console.log(`Total words tested: ${count}`)
 			console.log(GREEN_TICK, `Successfully answered: ${successWords.length} words`)
-			console.log(RED_CROSS, `Total errors: ${chPiErrors.length + chEnErrors.length + enChErrors.length + enPiErrors.length} words`)
-			console.log(`Chinese → Pinyin errors: ${chPiErrors.length} words`)
-			console.log(`Chinese → English errors: ${chEnErrors.length} words`)
-			console.log(`English → Chinese errors: ${enChErrors.length} words`)
-			console.log(`English → Pinyin errors: ${enPiErrors.length} words`)
+			console.log(RED_CROSS, `Total errors: ${totalErrors} words`)
+			console.log(`Chinese → Pinyin errors: ${errors["chinese-pinyin"].length} words`)
+			console.log(`Chinese → English errors: ${errors["chinese-english"].length} words`)
+			console.log(`English → Chinese errors: ${errors["english-chinese"].length} words`)
+			console.log(`English → Pinyin errors: ${errors["english-pinyin"].length} words`)
 		} catch (err: any) {
 			console.error(err)
 			console.error(err.message)
