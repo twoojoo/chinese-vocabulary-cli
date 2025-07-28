@@ -86,7 +86,8 @@ export class Store {
 
 		const data = await this.llm.getWordData(word)
 		data.comment = comment || data.comment || ""
-		data.level = level || -1;
+		data.level = level ?? -1;
+		data.createdAt = new Date().toISOString();
 
 		this.data.decks[name].words[word] = data
 		this.persist()
@@ -143,7 +144,7 @@ export class Store {
 		}
 	}
 
-	generateDeckPhrase(name: string, words: string[], word?: string): Promise<string> {
+	async generateDeckPhrase(name: string, words: string[], prevPhrases: string[], word?: string): Promise<[string, DeckPhrase]> {
 		if (!this.data.decks[name]) {
 			throw new Error(`Deck with name "${name}" does not exist.`)
 		}
@@ -152,7 +153,16 @@ export class Store {
 			throw new Error("No words provided for phrase generation.")
 		}
 
-		return this.llm.generatePhrase(words, word)
+		const genPhrase = await this.llm.generatePhrase(words, prevPhrases, word)
+
+		if (genPhrase.phrase.trim() === "") {
+			throw Error("No more meaningful phrase could be generated with the provided words.")
+		}
+		return [genPhrase.phrase, {
+			pinyin: genPhrase.pinyin,
+			translation: genPhrase.translation,
+			note: genPhrase.note || ""
+		}]
 	}
 }
 
@@ -170,6 +180,7 @@ export type Deck = {
 export type DeckWordData = {
 	sentence: string
 	tone: string
+	note: string
 	sentenceTranslation: string
 	definition: string
 	comment: string
@@ -177,12 +188,13 @@ export type DeckWordData = {
 	sentencePinyin: string
 	sentenceDefinition: string
 	level: number
+	createdAt: string
 }
 
 export type DeckPhrase = {
 	pinyin: string
 	translation: string
-	comment?: string
+	note?: string
 }
 
 const baseStore: StoreData = {
