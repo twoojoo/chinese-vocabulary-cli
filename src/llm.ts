@@ -90,6 +90,7 @@ export class LLM {
 		try {
 			return JSON.parse(response.content.toString());
 		} catch (err) {
+			console.log("Failed to parse response from LLM:", response.content.toString());
 			throw new Error("Failed to parse response from LLM.");
 		}
 	}

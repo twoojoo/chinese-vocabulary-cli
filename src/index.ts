@@ -2,6 +2,7 @@ import { Command } from "commander"
 import { DeckWordData, getStore } from "./store.js"
 import table from "as-table"
 import readline from "readline"
+import fs from "fs"
 
 const GREEN_TICK = "\x1b[32m✓\x1b[0m"
 const RED_CROSS = "\x1b[31m✗\x1b[0m"
@@ -22,6 +23,28 @@ const phrase = new Command("phrase")
 
 const llm = new Command("llm")
 	.description("Manage LLM operations")
+
+
+deck.command("list")
+	.alias("ls")
+	.description("List all decks")
+	.action(() => {
+		try {
+			const store = getStore()
+			const decks = store.listDecks()
+			if (Object.keys(decks).length === 0) {
+				console.log("No decks available.")
+			} else {
+				console.log(table(Object.entries(decks).map(([name, deck]) => ({
+					Name: name,
+					Description: deck.description || "-",
+					Words: Object.keys(deck.words).length
+				}))))
+			}
+		} catch (err: any) {
+			console.error(err.message)
+		}
+	})
 
 deck.command("add <name>")
 	.alias("a")
@@ -48,22 +71,112 @@ deck.command("remove <name>")
 		}
 	})
 
-deck.command("list")
-	.alias("ls")
-	.description("List all decks")
-	.action(() => {
+deck.command("merge <source> <dest>")
+	.alias("m")
+	.description("Merge the source deck into the destination deck")
+	.action((deck1, deck2) => {
 		try {
 			const store = getStore()
-			const decks = store.listDecks()
-			if (Object.keys(decks).length === 0) {
-				console.log("No decks available.")
-			} else {
-				console.log(table(Object.entries(decks).map(([name, deck]) => ({
-					Name: name,
-					Description: deck.description || "-",
-					Words: Object.keys(deck.words).length
-				}))))
+			store.mergeDecks(deck2, deck1)
+		} catch (err: any) {
+			console.error(err.message)
+		}
+	})
+
+deck.command("clone <source> <dest>")
+	.alias("c")
+	.description("Clone the source deck into a new destination deck")
+	.action((deck1, deck2) => {
+		try {
+			const store = getStore()
+			store.cloneDeck(deck2, deck1)
+		} catch (err: any) {
+			console.error(err.message)
+		}
+	})
+
+deck.command("export [name]")
+	.alias("e")
+	.description("Export the specified deck to a JSON file named <name>.json")
+	.option("-f, --force", "Force export even if the file already exists", false)
+	.action((name, options) => {
+		try {
+			if (!name) name = "default"
+			//check if file already exists
+			const output = `${name}.json`
+			if (fs.existsSync(output) && !options.force) {
+				throw new Error(`File "${output}" already exists. Please choose a different name or remove the existing file.`)
 			}
+
+			const store = getStore()
+			const deck = store.getDeck(name)
+			fs.writeFileSync(output, JSON.stringify(deck, null, 2))
+
+			console.log(`Deck "${name}" exported successfully to "${output}".`)
+		} catch (err: any) {
+			console.error(err.message)
+		}
+	})
+
+deck.command("import <input>")
+	.alias("i")
+	.description("Import a deck from a JSON file")
+	.option("-m, --merge", "Merge the imported deck with an existing one if it exists", false)
+	.option("-r, --replace", "Replace the existing deck with the imported one", false)
+	.action((input, options) => {
+		try {
+			if (!input.endsWith(".json")) {
+				throw new Error("Input file must be a .json file.")
+			}
+
+			const name = input.split(".json")[0]
+			const store = getStore()
+			const deckData = JSON.parse(fs.readFileSync(input, "utf8"))
+
+			store.importDeck(name, deckData, options.merge || false, options.replace || false)
+
+			console.log(`Deck ${name} imported successfully from "${input}".`)
+		} catch (err: any) {
+			console.error(err.message)
+		}
+	})
+
+word.command("list")
+	.alias("ls")
+	.description("List all words in the specified deck")
+	.option("-d, --deck <deck>", "Deck to list words from", "default")
+	.option("-l, --level <level>", "Filter words by level (1-10, -1 for unset)")
+	.action((options) => {
+		try {
+			const store = getStore()
+			let words = store.listDeckWords(options.deck)
+
+			if (parseInt(options.level) >= -1 && parseInt(options.level) <= 10 && !isNaN(parseInt(options.level))) {
+				const level = parseWordLevel(options.level.toString())
+				words = Object.fromEntries(
+					Object.entries(words).filter(([_, word]) => word.level === level)
+				)
+			}
+
+			if (Object.keys(words).length === 0) {
+				console.log(`No words available in deck "${options.deck}".`)
+			} else {
+				printWords(words)
+			}
+		} catch (err: any) {
+			console.error(err.message)
+		}
+	})
+
+word.command("count")
+	.alias("c")
+	.description("Count all words in the specified deck")
+	.option("-d, --deck <deck>", "Deck to count words in", "default")
+	.action(options => {
+		try {
+			const store = getStore()
+			const words = store.listDeckWords(options.deck)
+			console.log((Object.keys(words).length || 0).toString())
 		} catch (err: any) {
 			console.error(err.message)
 		}
@@ -96,6 +209,19 @@ word.command("add <word>")
 			const store = getStore()
 			const wordData = await store.addDeckWord(options.deck, word, options.comment, options.level)
 			printWords({ [word]: wordData })
+		} catch (err: any) {
+			console.error(err.message)
+		}
+	})
+
+word.command("remove <word>")
+	.alias("rm")
+	.description("Remove a word from the specified deck")
+	.option("-d, --deck <deck>", "Deck to remove the word from", "default")
+	.action((word, options) => {
+		try {
+			const store = getStore()
+			store.removeDeckWord(options.deck, word)	
 		} catch (err: any) {
 			console.error(err.message)
 		}
@@ -166,19 +292,6 @@ word.command("unset-level <word>")
 		}
 	})
 
-word.command("remove <word>")
-	.alias("rm")
-	.description("Remove a word from the specified deck")
-	.option("-d, --deck <deck>", "Deck to remove the word from", "default")
-	.action((word, options) => {
-		try {
-			const store = getStore()
-			store.removeDeckWord(options.deck, word)	
-		} catch (err: any) {
-			console.error(err.message)
-		}
-	})
-
 word.command("comment <word> <comment>")
 	.description("Add/Change comment for a word in the specified deck")
 	.option("-d, --deck <deck>", "Deck to add the comment to", "default")
@@ -197,34 +310,9 @@ word.command("comment <word> <comment>")
 		}
 	})
 
-word.command("list")
-	.alias("ls")
-	.description("List all words in the specified deck")
-	.option("-d, --deck <deck>", "Deck to list words from", "default")
-	.option("-l, --level <level>", "Filter words by level (1-10, -1 for unset)")
-	.action((options) => {
-		try {
-			const store = getStore()
-			let words = store.listDeckWords(options.deck)
-
-			if (parseInt(options.level) >= -1 && parseInt(options.level) <= 10 && !isNaN(parseInt(options.level))) {
-				const level = parseWordLevel(options.level.toString())
-				words = Object.fromEntries(
-					Object.entries(words).filter(([_, word]) => word.level === level)
-				)
-			}
-
-			if (Object.keys(words).length === 0) {
-				console.log(`No words available in deck "${options.deck}".`)
-			} else {
-				printWords(words)
-			}
-		} catch (err: any) {
-			console.error(err.message)
-		}
-	})
 
 word.command("test")
+	.description("Test your knowledge of words in the specified deck")
 	.option("-k, --kind", "Test kind", "mixed")
 	.option("-d, --deck <deck>", "Deck to test words from", "default")
 	.option("-n, --number <number>", "Number of words to test", parseInt, 10)
@@ -356,20 +444,6 @@ word.command("test")
 			console.log(`English → Pinyin errors: ${errors["english-pinyin"].length} words`)
 		} catch (err: any) {
 			console.error(err)
-			console.error(err.message)
-		}
-	})
-
-word.command("count")
-	.alias("c")
-	.description("Count all words in the specified deck")
-	.option("-d, --deck <deck>", "Deck to count words in", "default")
-	.action(options => {
-		try {
-			const store = getStore()
-			const words = store.listDeckWords(options.deck)
-			console.log((Object.keys(words).length || 0).toString())
-		} catch (err: any) {
 			console.error(err.message)
 		}
 	})

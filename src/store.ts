@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { LLM } from "./llm";
+import zlib from "zlib"
 
 export class Store {
 	private metadata: StoreMetadata = { llmApiKey: "", decks: [] };
@@ -23,12 +24,34 @@ export class Store {
 		if (!fs.existsSync(filePath)) {
 			throw new Error(`Deck with name "${name}" does not exist.`);
 		}
-		const content = fs.readFileSync(filePath, "utf8");
+
+		let content = fs.readFileSync(filePath, "utf8");
+
+		if (!content) {
+			throw new Error(`Deck file "${name}" is empty or corrupted.`);
+		}
+
+		// try {
+		// 	const buffer = Buffer.from(content, "utf8");
+		// 	console.log(content)
+		// 	const decompressed = zlib.gunzipSync(buffer);
+		// 	content = decompressed.toString("utf8");
+		// 	// console.log(decompressed)
+		// 	return JSON.parse(content);
+		// } catch (err) {
+		// console.log(err)
 		return JSON.parse(content);
+		// }
 	}
 
 	private saveDeck(name: string, deck: Deck): void {
-		fs.writeFileSync(this.getDeckPath(name), JSON.stringify(deck, null, 2), "utf8");
+		const content = JSON.stringify(deck)
+		if (!content) {
+			throw new Error(`Cannot save empty deck "${name}".`);
+		}
+
+		// const compressedContent = zlib.gzipSync(content);
+		fs.writeFileSync(this.getDeckPath(name), content, "utf8");
 	}
 
 	private deleteDeckFile(name: string): void {
@@ -54,10 +77,80 @@ export class Store {
 	}
 
 	getDeck(name: string): Deck {
-		if (!this.metadata.decks.includes(name)) {
+		if (!(this.metadata.decks || []).includes(name)) {
 			throw new Error(`Deck with name "${name}" does not exist.`);
 		}
 		return this.loadDeck(name);
+	}
+
+	mergeDecks(targetName: string, sourceName: string): void {
+		if (!this.metadata.decks.includes(targetName)) {
+			throw new Error(`Target deck "${targetName}" does not exist.`);
+		}
+		if (!this.metadata.decks.includes(sourceName)) {
+			throw new Error(`Source deck "${sourceName}" does not exist.`);
+		}
+
+		const targetDeck = this.loadDeck(targetName);
+		const sourceDeck = this.loadDeck(sourceName);
+
+		for (const word in sourceDeck.words) {
+			if (!targetDeck.words[word]) {
+				targetDeck.words[word] = sourceDeck.words[word];
+			}
+		}
+
+		this.saveDeck(targetName, targetDeck);
+		this.deleteDeckFile(sourceName);
+		this.metadata.decks = this.metadata.decks.filter(d => d !== sourceName);
+		this.persistMetadata();
+	}
+
+	importDeck(name: string, deck: Deck, merge: boolean, replace: boolean): void {
+		if (this.hasDeck(name)) {
+			if (merge && replace) {
+				throw new Error(`Deck with name "${name}" already exists. Use merge or replace, not both.`);
+			}	
+
+			if (merge) {
+				this.saveDeck(name + "-temp", deck);
+				this.mergeDecks(name, name + "-temp");
+				this.deleteDeckFile(name + "-temp");
+				this.metadata.decks.push(name);
+				this.persistMetadata();
+				return
+			}
+
+			if (replace) {
+				this.deleteDeckFile(name);
+			} else {
+				throw new Error(`Deck with name "${name}" already exists. Use merge or replace.`);
+			}
+		}
+
+		this.saveDeck(name, deck);
+		this.metadata.decks.push(name);
+		this.persistMetadata();
+	}
+
+	cloneDeck(targetName: string, sourceName: string): void {
+		if (this.hasDeck(targetName)) {
+			throw new Error(`Deck with name "${targetName}" already exists.`);
+		}
+		if (!this.metadata.decks.includes(sourceName)) {
+			throw new Error(`Source deck "${sourceName}" does not exist.`);
+		}
+
+		const sourceDeck = this.loadDeck(sourceName);
+		const clonedDeck: Deck = {
+			words: { ...sourceDeck.words },
+			phrases: { ...sourceDeck.phrases },
+			description: sourceDeck.description
+		};
+
+		this.saveDeck(targetName, clonedDeck);
+		this.metadata.decks.push(targetName);
+		this.persistMetadata();
 	}
 
 	hasDeck(name: string): boolean {
