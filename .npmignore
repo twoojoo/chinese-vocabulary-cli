@@ -1,0 +1,7 @@
+src
+.gitignore
+.env
+store.json
+decks
+tsconfig.json
+node_modules

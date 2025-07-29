@@ -3,16 +3,22 @@ import path from "path";
 import { LLM } from "./llm";
 import zlib from "zlib"
 
+const linuxConfigPath = path.join(process.env.HOME || "~", ".hzcli");
+const windowsConfigPath = path.join(process.env.APPDATA || "~", "hzcli");
+const configPath = process.platform === "win32" ? windowsConfigPath : linuxConfigPath;
+
 export class Store {
 	private metadata: StoreMetadata = { llmApiKey: "", decks: [] };
 	private llm: LLM;
-
-	private deckFolder = path.resolve("decks");
+	private deckFolder: string = path.join(configPath, "decks");;
+	private storePath: string = path.join(configPath, "store.json");
 
 	constructor(json: string) {
 		this.metadata = JSON.parse(json);
 		this.llm = new LLM(this.metadata.llmApiKey || process.env.OPENAI_API_KEY || "");
-		if (!fs.existsSync(this.deckFolder)) fs.mkdirSync(this.deckFolder);
+		if (!fs.existsSync(this.deckFolder)) {
+			fs.mkdirSync(this.deckFolder);
+		}
 	}
 
 	private getDeckPath(name: string): string {
@@ -48,7 +54,7 @@ export class Store {
 	}
 
 	private persistMetadata(): void {
-		fs.writeFileSync("store.json", JSON.stringify(this.metadata, null, 2), "utf8");
+		fs.writeFileSync(this.storePath, JSON.stringify(this.metadata, null, 2), "utf8");
 	}
 
 	setLlmApiKey(apiKey: string): void {
@@ -284,19 +290,25 @@ const defaultDeck: Deck = {
 };
 
 export function getStore(): Store {
-	if (!fs.existsSync("store.json")) {
-		fs.writeFileSync("store.json", JSON.stringify(baseMetadata, null, 2));
+	const storePath = path.join(configPath, "store.json")
+	const deckFolder = path.join(configPath, "decks");
+
+	if (!fs.existsSync(storePath)) {
+		if (!fs.existsSync(configPath)) {
+			fs.mkdirSync(configPath, { recursive: true });
+		}
+		fs.writeFileSync(storePath, JSON.stringify(baseMetadata, null, 2));
 	}
 
-	if (!fs.existsSync("decks")) {
-		fs.mkdirSync("decks");
+	if (!fs.existsSync(deckFolder)) {
+		fs.mkdirSync(deckFolder);
 	}
 
-	const defaultDeckPath = path.join("decks", "default.json");
+	const defaultDeckPath = path.join(deckFolder, "default.json");
 	if (!fs.existsSync(defaultDeckPath)) {
 		fs.writeFileSync(defaultDeckPath, JSON.stringify(defaultDeck, null, 2));
 	}
 
-	const json = fs.readFileSync("store.json", "utf8");
+	const json = fs.readFileSync(storePath, "utf8");
 	return new Store(json);
 }
