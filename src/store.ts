@@ -31,17 +31,7 @@ export class Store {
 			throw new Error(`Deck file "${name}" is empty or corrupted.`);
 		}
 
-		// try {
-		// 	const buffer = Buffer.from(content, "utf8");
-		// 	console.log(content)
-		// 	const decompressed = zlib.gunzipSync(buffer);
-		// 	content = decompressed.toString("utf8");
-		// 	// console.log(decompressed)
-		// 	return JSON.parse(content);
-		// } catch (err) {
-		// console.log(err)
 		return JSON.parse(content);
-		// }
 	}
 
 	private saveDeck(name: string, deck: Deck): void {
@@ -50,7 +40,6 @@ export class Store {
 			throw new Error(`Cannot save empty deck "${name}".`);
 		}
 
-		// const compressedContent = zlib.gzipSync(content);
 		fs.writeFileSync(this.getDeckPath(name), content, "utf8");
 	}
 
@@ -118,8 +107,7 @@ export class Store {
 
 			if (merge) {
 				this.saveDeck(name + "-temp", deck);
-				this.mergeDecks(name, name + "-temp");
-				this.deleteDeckFile(name + "-temp");
+				this.mergeDecks(name, name + "-temp", true);
 				this.metadata.decks.push(name);
 				this.persistMetadata();
 				return
