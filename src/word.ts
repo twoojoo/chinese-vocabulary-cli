@@ -1,5 +1,5 @@
 import { Command } from "commander";
-import { getStore } from "./store";
+import { getStore } from "./Store";
 import {
 	askQuestion, 
 	compareStrings, 

@@ -1,4 +1,4 @@
-import { getStore } from "./store";
+import { getStore } from "./Store";
 import { Command } from "commander";
 
 export const llm = new Command("llm")

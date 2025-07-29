@@ -1,5 +1,5 @@
 import { ChatOpenAI } from "@langchain/openai";
-import { DeckWordData } from "./store";
+import { DeckWordData } from "./Store";
 
 export class LLM {
 	constructor(private apiKey: string) {}

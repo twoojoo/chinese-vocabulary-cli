@@ -1,5 +1,5 @@
 import { Command } from "commander";
-import { getStore } from "./store";
+import { getStore } from "./Store";
 
 export const phrase = new Command("phrase")
 	.alias("phrases")

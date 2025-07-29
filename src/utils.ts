@@ -1,5 +1,5 @@
 import asTable from "as-table";
-import { DeckWordData } from "./store";
+import { DeckWordData } from "./Store";
 import readline from "readline";
 
 export function printWords(words: Record<string, DeckWordData>) {
