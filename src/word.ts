@@ -91,6 +91,21 @@ word.command("add <word>")
 		}
 	})
 
+word.command("copy <word> <source> <dest>")
+	.alias("cp")
+	.description("Copy a word from one deck to another")
+	.option("-f, --force", "Force copy even if the word already exists in the destination deck", false)
+	.action((word, source, dest, options) => {
+		try {
+			const store = getStore()
+			const copiedWordData = store.copyDeckWord(source, dest, word, options.force || false)
+			printWords({ [word]: copiedWordData })
+		} catch (err: any) {
+			console.error(err.message)
+		}
+	})
+
+
 word.command("remove <word>")
 	.alias("rm")
 	.description("Remove a word from the specified deck")

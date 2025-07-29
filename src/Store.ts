@@ -233,6 +233,30 @@ export class Store {
 		return deck.words;
 	}
 
+	copyDeckWord(source: string, dest: string, word: string, force: boolean): DeckWordData {
+		if (!this.hasDeck(source)) {
+			throw new Error(`Source deck "${source}" does not exist.`);
+		}
+		if (!this.hasDeck(dest)) {
+			throw new Error(`Destination deck "${dest}" does not exist.`);
+		}
+
+		const sourceDeck = this.loadDeck(source);
+		const destDeck = this.loadDeck(dest);
+
+		if (!sourceDeck.words[word]) {
+			throw new Error(`Word "${word}" does not exist in source deck "${source}".`);
+		}
+
+		if (destDeck.words[word] && !force) {
+			throw new Error(`Word "${word}" does not exist in destination deck "${source}".`);
+		}
+
+		destDeck.words[word] = { ...sourceDeck.words[word] };
+		this.saveDeck(dest, destDeck);
+		return destDeck.words[word];
+	}
+
 	async generateDeckPhrase(name: string, words: string[], prevPhrases: string[], word?: string): Promise<[string, DeckPhrase]> {
 		const deck = this.loadDeck(name);
 		if (words.length === 0) throw new Error("No words provided for phrase generation.");
