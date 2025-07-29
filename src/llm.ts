@@ -26,8 +26,7 @@ export class LLM {
 		const chat = new ChatOpenAI({
 			model: "gpt-4.1-nano",
 			apiKey: this.apiKey,
-			maxTokens: 100,
-			temperature: 0.7,
+			temperature: 0,
 		});
 
 		let prompt = `Generate a phrase in chinese simplified using the following words and characters: ${words.join(", ")}${word ? `, and include the word "${word}".` : ""}. 
@@ -65,8 +64,7 @@ export class LLM {
 		const chat = new ChatOpenAI({
 			model: "gpt-4.1-nano",
 			apiKey: this.apiKey,
-			maxTokens: 100,
-			temperature: 0.7,
+			temperature: 0,
 		});
 
 		const prompt = `Provide the definition and pinyin for the word "${word}" in Chinese Simplified. Format your response as JSON with keys 
@@ -78,19 +76,21 @@ export class LLM {
 			"sentencePinyin" (the pinyin transcription of the example sentence with the correct tones),
 			"sentenceTranslation" (the translation of the example sentence in English)
 			"sentenceDefinition" (if the translation is not literal, explain the meaning, otherwise just an empty string).
-			Just return the JSON string without any prefix or postfix text.
 
-		In the note be as musch brief as possible, eg:
-		instead of "Used as a third-person singular feminine pronoun in Chinese"
-		say "third-person singular feminine pronoun"
+			In the note be as musch brief as possible, eg:
+			instead of "Used as a third-person singular feminine pronoun in Chinese"
+			say "third-person singular feminine pronoun"
+
+		You MUST return just the JSON string without any prefix or postfix text.
+		It must be a valid JSON from opening bracked to the closing bracket, without any additional text or formatting.
 	`;
 
-		const response = await chat.invoke([{ role: "user", content: prompt }]);
+		const response = await chat.invoke(prompt);
 		
 		try {
 			return JSON.parse(response.content.toString());
 		} catch (err) {
-			console.log("Failed to parse response from LLM:", response.content.toString());
+			console.log("Failed to parse response from LLM:", response.content);
 			throw new Error("Failed to parse response from LLM.");
 		}
 	}

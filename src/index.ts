@@ -74,10 +74,11 @@ deck.command("remove <name>")
 deck.command("merge <source> <dest>")
 	.alias("m")
 	.description("Merge the source deck into the destination deck")
-	.action((deck1, deck2) => {
+	.option("-d, --delete-source", "Delete the source deck after merging", false)
+	.action((deck1, deck2, options) => {
 		try {
 			const store = getStore()
-			store.mergeDecks(deck2, deck1)
+			store.mergeDecks(deck2, deck1, options.deleteSource || false)
 		} catch (err: any) {
 			console.error(err.message)
 		}

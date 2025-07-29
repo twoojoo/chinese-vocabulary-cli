@@ -83,7 +83,7 @@ export class Store {
 		return this.loadDeck(name);
 	}
 
-	mergeDecks(targetName: string, sourceName: string): void {
+	mergeDecks(targetName: string, sourceName: string, deleteSource: boolean): void {
 		if (!this.metadata.decks.includes(targetName)) {
 			throw new Error(`Target deck "${targetName}" does not exist.`);
 		}
@@ -101,7 +101,11 @@ export class Store {
 		}
 
 		this.saveDeck(targetName, targetDeck);
-		this.deleteDeckFile(sourceName);
+		
+		if (deleteSource) {
+			this.deleteDeckFile(sourceName);
+		}
+
 		this.metadata.decks = this.metadata.decks.filter(d => d !== sourceName);
 		this.persistMetadata();
 	}
