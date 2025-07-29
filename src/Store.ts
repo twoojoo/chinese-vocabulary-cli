@@ -4,6 +4,9 @@ import { LLM } from "./model";
 import zlib from "zlib"
 import { GREEN_TICK } from "./utils";
 
+const MAX_CACHED_DECKS = 10;
+const cachedDecks: Record<string, Deck> = {};
+
 const linuxConfigPath = path.join(process.env.HOME || "~", ".hzcli");
 const windowsConfigPath = path.join(process.env.APPDATA || "~", "hzcli");
 const configPath = process.platform === "win32" ? windowsConfigPath : linuxConfigPath;
@@ -15,8 +18,8 @@ export class Store {
 	private deckFolder: string = path.join(configPath, "decks");;
 	private storePath: string = path.join(configPath, "store.json");
 
-	constructor(json: string) {
-		this.metadata = JSON.parse(json);
+	constructor(json: StoreMetadata) {
+		this.metadata = json;
 		this.llm = new LLM(this.metadata.llmApiKey || process.env.OPENAI_API_KEY || "");
 		if (!fs.existsSync(this.deckFolder)) {
 			fs.mkdirSync(this.deckFolder);
@@ -28,6 +31,10 @@ export class Store {
 	}
 
 	private loadDeck(name: string): Deck {
+		if (cachedDecks[name]) {
+			return cachedDecks[name];
+		}
+
 		const filePath = this.getDeckPath(name);
 		if (!fs.existsSync(filePath)) {
 			throw new Error(`Deck with name "${name}" does not exist.`);
@@ -39,7 +46,16 @@ export class Store {
 			throw new Error(`Deck file "${name}" is empty or corrupted.`);
 		}
 
-		return JSON.parse(content);
+		const deck: Deck = JSON.parse(content);
+
+		cachedDecks[name] = deck;
+
+		if (Object.keys(cachedDecks).length > MAX_CACHED_DECKS) {
+			const oldestDeckName = Object.keys(cachedDecks)[0];
+			delete cachedDecks[oldestDeckName];
+		}
+
+		return deck
 	}
 
 	private saveDeck(name: string, deck: Deck): void {
@@ -197,6 +213,14 @@ export class Store {
 		const deck = this.loadDeck(name);
 		if (deck.words[word]) throw new Error(`Word "${word}" already exists in deck "${name}".`);
 
+		const decks = this.metadata.decks;
+		for (const deckName of decks) {
+			if (deckName !== name && this.deckHasWord(deckName, word)) {
+				console.debug(GREEN_TICK, `Word "${word}" already exists in deck "${deckName}". Copying...`);
+				return this.copyDeckWord(deckName, name, word, false);
+			}
+		}
+
 		const data = await this.llm.getWordData(word);
 		data.translations = data.translations?.map(t => t.trim()) || [];
 		data.comment = comment || data.comment || "";
@@ -338,6 +362,20 @@ export function getStore(): Store {
 		fs.writeFileSync(defaultDeckPath, JSON.stringify(defaultDeck, null, 2));
 	}
 
+	const listDecks = fs.readdirSync(deckFolder)
+		.filter(file => file.endsWith(".json"))
+		.map(file => path.basename(file, ".json"));
+
+	const store: StoreMetadata = fs.existsSync(storePath) 
+		? JSON.parse(fs.readFileSync(storePath, "utf8")) 
+		: baseMetadata
+
+	for (const deckName of listDecks) {
+		if (!store.decks.includes(deckName)) {
+			store.decks = Array.from(new Set([...store.decks, deckName]));
+		}
+	}
+
 	// LOAD BASE DECKS
 	const defaultDekcs = fs.readdirSync(path.join(defaultDecksPath, "base_decks"))
 		.filter(file => file.endsWith(".json"))
@@ -348,13 +386,11 @@ export function getStore(): Store {
 		if (!fs.existsSync(deckPath)) {
 			const deckContent = fs.readFileSync(path.join(defaultDecksPath, "base_decks", `${deckName}.json`), "utf8");
 			fs.writeFileSync(deckPath, deckContent, "utf8");
-			baseMetadata.decks.push(deckName);
-			fs.writeFileSync(storePath, JSON.stringify(baseMetadata, null, 2), "utf8");
+			store.decks.push(deckName);
+			fs.writeFileSync(storePath, JSON.stringify(store, null, 2), "utf8");
 			console.debug(GREEN_TICK, `Added base deck: ${deckName}`);
 		}
 	}
 
-	// LOAD STORE FILE
-	const json = fs.readFileSync(storePath, "utf8");
-	return new Store(json);
+	return new Store(store);
 }

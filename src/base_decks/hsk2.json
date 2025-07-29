@@ -1,0 +1,4970 @@
+{
+  "words": {
+    "的": {
+      "translations": [
+        "possessive particle",
+        "adjective marker",
+        "relative clause marker"
+      ],
+      "note": "possessive or descriptive marker",
+      "pinyin": "de",
+      "tone": 0,
+      "sentence": "这是我的书。",
+      "sentencePinyin": "Zhè shì wǒ de shū.",
+      "sentenceTranslation": "This is my book.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:03:45.095Z"
+    },
+    "我": {
+      "translations": [
+        "I",
+        "me"
+      ],
+      "note": "first-person singular pronoun",
+      "pinyin": "wǒ",
+      "tone": 3,
+      "sentence": "我是学生。",
+      "sentencePinyin": "Wǒ shì xuéshēng.",
+      "sentenceTranslation": "I am a student.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:27:30.967Z"
+    },
+    "你": {
+      "translations": [
+        "you"
+      ],
+      "note": "second-person singular pronoun",
+      "pinyin": "nǐ",
+      "tone": 3,
+      "sentence": "你喜欢吃苹果。",
+      "sentencePinyin": "Nǐ xǐhuān chī píngguǒ.",
+      "sentenceTranslation": "You like to eat apples.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:03:50.120Z"
+    },
+    "是": {
+      "translations": [
+        "is",
+        "yes"
+      ],
+      "note": "used as a copula or to affirm",
+      "pinyin": "shì",
+      "tone": 4,
+      "sentence": "我是学生。",
+      "sentencePinyin": "Wǒ shì xuéshēng.",
+      "sentenceTranslation": "I am a student.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:03:52.262Z"
+    },
+    "了": {
+      "translations": [
+        "particle indicating completed action",
+        "modal particle",
+        "indicates change of state"
+      ],
+      "note": "indicates completed action or change of state",
+      "pinyin": "le",
+      "tone": 4,
+      "sentence": "我吃了饭。",
+      "sentencePinyin": "Wǒ chī le fàn.",
+      "sentenceTranslation": "I have eaten.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:03:54.210Z"
+    },
+    "不": {
+      "translations": [
+        "no",
+        "not",
+        "don't",
+        "cannot",
+        "negative"
+      ],
+      "note": "negation marker",
+      "pinyin": "bù",
+      "tone": 4,
+      "sentence": "我不喜欢吃苹果。",
+      "sentencePinyin": "Wǒ bù xǐhuān chī píngguǒ.",
+      "sentenceTranslation": "I do not like to eat apples.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:02.603Z"
+    },
+    "在": {
+      "translations": [
+        "at",
+        "in",
+        "on",
+        "located at",
+        "exist"
+      ],
+      "note": "indicates location or existence",
+      "pinyin": "zài",
+      "tone": 4,
+      "sentence": "我在学校。",
+      "sentencePinyin": "Wǒ zài xuéxiào.",
+      "sentenceTranslation": "I am at school.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:05.683Z"
+    },
+    "他": {
+      "translations": [
+        "he",
+        "him",
+        "his"
+      ],
+      "note": "third-person singular masculine pronoun",
+      "pinyin": "tā",
+      "tone": 1,
+      "sentence": "他是我的朋友。",
+      "sentencePinyin": "Tā shì wǒ de péngyǒu.",
+      "sentenceTranslation": "He is my friend.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:29:23.470Z"
+    },
+    "我们": {
+      "translations": [
+        "we",
+        "us",
+        "our"
+      ],
+      "note": "first-person plural pronoun",
+      "pinyin": "wǒmen",
+      "tone": 3,
+      "sentence": "我们喜欢学习中文。",
+      "sentencePinyin": "Wǒmen xǐhuān xuéxí Zhōngwén.",
+      "sentenceTranslation": "We like studying Chinese.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:10.904Z"
+    },
+    "好": {
+      "translations": [
+        "good",
+        "well",
+        "nice",
+        "okay"
+      ],
+      "note": "used to express approval, agreement, or positive quality",
+      "pinyin": "hǎo",
+      "tone": 3,
+      "sentence": "今天的天气很好。",
+      "sentencePinyin": "Jīntiān de tiānqì hěn hǎo.",
+      "sentenceTranslation": "The weather today is very good.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:13.472Z"
+    },
+    "有": {
+      "translations": [
+        "have",
+        "there is",
+        "exist"
+      ],
+      "note": "used to indicate possession, existence, or presence",
+      "pinyin": "yǒu",
+      "tone": 3,
+      "sentence": "我有一本书。",
+      "sentencePinyin": "Wǒ yǒu yī běn shū.",
+      "sentenceTranslation": "I have a book.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:16.541Z"
+    },
+    "这": {
+      "translations": [
+        "this"
+      ],
+      "note": "",
+      "pinyin": "zhè",
+      "tone": 4,
+      "sentence": "这是我的书。",
+      "sentencePinyin": "Zhè shì wǒ de shū.",
+      "sentenceTranslation": "This is my book.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:18.689Z"
+    },
+    "会": {
+      "translations": [
+        "can",
+        "be able to",
+        "meet",
+        "meeting",
+        "association"
+      ],
+      "note": "used to indicate ability, possibility, or a meeting",
+      "pinyin": "huì",
+      "tone": 4,
+      "sentence": "我会说中文。",
+      "sentencePinyin": "Wǒ huì shuō Zhōngwén.",
+      "sentenceTranslation": "I can speak Chinese.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:20.339Z"
+    },
+    "吗": {
+      "translations": [
+        "question particle"
+      ],
+      "note": "question particle",
+      "pinyin": "ma",
+      "tone": 3,
+      "sentence": "你喜欢吃苹果吗？",
+      "sentencePinyin": "Nǐ xǐhuān chī píngguǒ ma?",
+      "sentenceTranslation": "Do you like to eat apples?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:22.784Z"
+    },
+    "什么": {
+      "translations": [
+        "what"
+      ],
+      "note": "",
+      "pinyin": "shénme",
+      "tone": 2,
+      "sentence": "你想吃什么？",
+      "sentencePinyin": "Nǐ xiǎng chī shénme?",
+      "sentenceTranslation": "What do you want to eat?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:24.937Z"
+    },
+    "说": {
+      "translations": [
+        "say",
+        "speak",
+        "talk"
+      ],
+      "note": "",
+      "pinyin": "shuō",
+      "tone": 1,
+      "sentence": "我会说中文。",
+      "sentencePinyin": "Wǒ huì shuō Zhōngwén.",
+      "sentenceTranslation": "I can speak Chinese.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:31.218Z"
+    },
+    "她": {
+      "translations": [
+        "she",
+        "her"
+      ],
+      "note": "third-person singular feminine pronoun",
+      "pinyin": "tā",
+      "tone": 1,
+      "sentence": "她喜欢吃苹果。",
+      "sentencePinyin": "Tā xǐhuān chī píngguǒ.",
+      "sentenceTranslation": "She likes to eat apples.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:33.056Z"
+    },
+    "想": {
+      "translations": [
+        "to think",
+        "to want",
+        "to miss",
+        "to consider"
+      ],
+      "note": "used for thinking, wanting, or considering",
+      "pinyin": "xiǎng",
+      "tone": 3,
+      "sentence": "我在想你。",
+      "sentencePinyin": "Wǒ zài xiǎng nǐ.",
+      "sentenceTranslation": "I am thinking of you.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:35.415Z"
+    },
+    "一": {
+      "translations": [
+        "one"
+      ],
+      "note": "",
+      "pinyin": "yī",
+      "tone": 1,
+      "sentence": "我有一个苹果。",
+      "sentencePinyin": "Wǒ yǒu yī gè píngguǒ.",
+      "sentenceTranslation": "I have an apple.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:38.486Z"
+    },
+    "很": {
+      "translations": [
+        "very"
+      ],
+      "note": "",
+      "pinyin": "hěn",
+      "tone": 3,
+      "sentence": "我很喜欢这部电影。",
+      "sentencePinyin": "Wǒ hěn xǐhuān zhè bù diànyǐng.",
+      "sentenceTranslation": "I like this movie very much.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:41.457Z"
+    },
+    "人": {
+      "translations": [
+        "person",
+        "human"
+      ],
+      "note": "",
+      "pinyin": "rén",
+      "tone": 2,
+      "sentence": "他是一个好人。",
+      "sentencePinyin": "Tā shì yí gè hǎo rén.",
+      "sentenceTranslation": "He is a good person.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:43.912Z"
+    },
+    "那": {
+      "translations": [
+        "that",
+        "those",
+        "then",
+        "then (adverb)"
+      ],
+      "note": "demonstrative pronoun or adverb depending on context",
+      "pinyin": "nà",
+      "tone": 4,
+      "sentence": "那是我的书。",
+      "sentencePinyin": "Nà shì wǒ de shū.",
+      "sentenceTranslation": "That is my book.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:51.806Z"
+    },
+    "来": {
+      "translations": [
+        "come"
+      ],
+      "note": "",
+      "pinyin": "lái",
+      "tone": 2,
+      "sentence": "我想来看看。",
+      "sentencePinyin": "Wǒ xiǎng lái kàn kàn.",
+      "sentenceTranslation": "I want to come and take a look.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:54.680Z"
+    },
+    "都": {
+      "translations": [
+        "all",
+        "both",
+        "even",
+        "already",
+        "city",
+        "metropolis"
+      ],
+      "note": "used as a conjunction, adverb, or pronoun depending on context",
+      "pinyin": "dōu",
+      "tone": 1,
+      "sentence": "我们都喜欢吃中国菜。",
+      "sentencePinyin": "Wǒmen dōu xǐhuān chī Zhōngguó cài.",
+      "sentenceTranslation": "We all like to eat Chinese food.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:57.540Z"
+    },
+    "个": {
+      "translations": [
+        "measure word",
+        "individual",
+        "item"
+      ],
+      "note": "measure word for items or units",
+      "pinyin": "gè",
+      "tone": 4,
+      "sentence": "我有一个苹果。",
+      "sentencePinyin": "Wǒ yǒu yí gè píngguǒ.",
+      "sentenceTranslation": "I have an apple.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:04:59.796Z"
+    },
+    "能": {
+      "translations": [
+        "can",
+        "be able to",
+        "capable of"
+      ],
+      "note": "indicates ability or capability",
+      "pinyin": "néng",
+      "tone": 2,
+      "sentence": "我能帮你吗？",
+      "sentencePinyin": "Wǒ néng bāng nǐ ma?",
+      "sentenceTranslation": "Can I help you?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:05:01.431Z"
+    },
+    "去": {
+      "translations": [
+        "to go",
+        "to leave",
+        "to remove",
+        "to go to"
+      ],
+      "note": "used to indicate movement or direction",
+      "pinyin": "qù",
+      "tone": 4,
+      "sentence": "我想去商店。",
+      "sentencePinyin": "Wǒ xiǎng qù shāngdiàn.",
+      "sentenceTranslation": "I want to go to the store.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:05:03.275Z"
+    },
+    "和": {
+      "translations": [
+        "and",
+        "harmony",
+        "peace",
+        "together"
+      ],
+      "note": "used as a conjunction, noun, or verb depending on context",
+      "pinyin": "hé",
+      "tone": 2,
+      "sentence": "我喜欢喝茶和咖啡。",
+      "sentencePinyin": "Wǒ xǐhuān hē chá hé kāfēi.",
+      "sentenceTranslation": "I like to drink tea and coffee.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:05:07.537Z"
+    },
+    "做": {
+      "translations": [
+        "to do",
+        "to make",
+        "to work",
+        "to act",
+        "to carry out"
+      ],
+      "note": "used for performing actions or tasks",
+      "pinyin": "zuò",
+      "tone": 4,
+      "sentence": "我在做作业。",
+      "sentencePinyin": "Wǒ zài zuò zuòyè.",
+      "sentenceTranslation": "I am doing homework.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:05:10.096Z"
+    },
+    "上": {
+      "translations": [
+        "up",
+        "above",
+        "on",
+        "over",
+        "top",
+        "to go",
+        "to ascend"
+      ],
+      "note": "used as a preposition, verb, or adjective indicating position or movement",
+      "pinyin": "shàng",
+      "tone": 4,
+      "sentence": "书在桌子上。",
+      "sentencePinyin": "Shū zài zhuōzi shàng.",
+      "sentenceTranslation": "The book is on the table.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:05:13.787Z"
+    },
+    "没有": {
+      "translations": [
+        "not have",
+        "there is not",
+        "none"
+      ],
+      "note": "used to indicate absence or negation",
+      "pinyin": "méiyǒu",
+      "tone": 3,
+      "sentence": "我没有时间。",
+      "sentencePinyin": "Wǒ méiyǒu shíjiān.",
+      "sentenceTranslation": "I don't have time.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:05:15.829Z"
+    },
+    "看": {
+      "translations": [
+        "look",
+        "see",
+        "watch",
+        "view"
+      ],
+      "note": "",
+      "pinyin": "kàn",
+      "tone": 4,
+      "sentence": "我喜欢看电影。",
+      "sentencePinyin": "Wǒ xǐhuān kàn diànyǐng.",
+      "sentenceTranslation": "I like watching movies.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:05:17.781Z"
+    },
+    "怎么": {
+      "translations": [
+        "how",
+        "what",
+        "why"
+      ],
+      "note": "used to ask questions or inquire about methods",
+      "pinyin": "zěn me",
+      "tone": "3 0",
+      "sentence": "你怎么来了？",
+      "sentencePinyin": "Nǐ zěn me lái le?",
+      "sentenceTranslation": "Why did you come?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:05:25.561Z"
+    },
+    "现在": {
+      "translations": [
+        "now",
+        "at present"
+      ],
+      "note": "",
+      "pinyin": "xiànzài",
+      "tone": 4,
+      "sentence": "我现在很忙。",
+      "sentencePinyin": "Wǒ xiànzài hěn máng.",
+      "sentenceTranslation": "I am busy now.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:05:33.053Z"
+    },
+    "点": {
+      "translations": [
+        "dot",
+        "point",
+        "hour",
+        "o'clock",
+        "to order",
+        "to point"
+      ],
+      "note": "various meanings depending on context",
+      "pinyin": "diǎn",
+      "tone": 3,
+      "sentence": "现在是三点。",
+      "sentencePinyin": "Xiànzài shì sān diǎn.",
+      "sentenceTranslation": "It is three o'clock now.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:05:42.993Z"
+    },
+    "呢": {
+      "translations": [
+        "question particle",
+        "modal particle"
+      ],
+      "note": "question or modal particle",
+      "pinyin": "ne",
+      "tone": "-",
+      "sentence": "你呢？",
+      "sentencePinyin": "Nǐ ne?",
+      "sentenceTranslation": "And you?",
+      "sentenceDefinition": "Used to ask about the other person's situation or opinion, often following a statement.",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:05:46.061Z"
+    },
+    "太": {
+      "translations": [
+        "too",
+        "very",
+        "extremely",
+        "so"
+      ],
+      "note": "indicates excess or degree",
+      "pinyin": "tài",
+      "tone": 4,
+      "sentence": "这个菜太好吃了。",
+      "sentencePinyin": "Zhège cài tài hǎo chī le.",
+      "sentenceTranslation": "This dish is too delicious.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:05:56.301Z"
+    },
+    "里": {
+      "translations": [
+        "inside",
+        "within",
+        "in",
+        "inside of"
+      ],
+      "note": "",
+      "pinyin": "lǐ",
+      "tone": 3,
+      "sentence": "书在桌子里。",
+      "sentencePinyin": "Shū zài zhuōzi lǐ.",
+      "sentenceTranslation": "The book is inside the table.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:05:58.550Z"
+    },
+    "听": {
+      "translations": [
+        "listen",
+        "hear"
+      ],
+      "note": "",
+      "pinyin": "tīng",
+      "tone": 1,
+      "sentence": "我喜欢听音乐。",
+      "sentencePinyin": "Wǒ xǐhuān tīng yīnyuè.",
+      "sentenceTranslation": "I like listening to music.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:01.315Z"
+    },
+    "谁": {
+      "translations": [
+        "who"
+      ],
+      "note": "question word for asking about a person",
+      "pinyin": "shéi",
+      "tone": 2,
+      "sentence": "你是谁？",
+      "sentencePinyin": "Nǐ shì shéi?",
+      "sentenceTranslation": "Who are you?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:03.306Z"
+    },
+    "多": {
+      "translations": [
+        "many",
+        "much",
+        "more"
+      ],
+      "note": "indicates quantity or degree",
+      "pinyin": "duō",
+      "tone": 1,
+      "sentence": "我有很多书。",
+      "sentencePinyin": "Wǒ yǒu hěn duō shū.",
+      "sentenceTranslation": "I have many books.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:05.664Z"
+    },
+    "时候": {
+      "translations": [
+        "time",
+        "moment",
+        "period"
+      ],
+      "note": "context-dependent, refers to a point or period in time",
+      "pinyin": "shíhòu",
+      "tone": 4,
+      "sentence": "你什么时候回来？",
+      "sentencePinyin": "Nǐ shénme shíhòu huílái?",
+      "sentenceTranslation": "When will you come back?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:22.567Z"
+    },
+    "下": {
+      "translations": [
+        "down",
+        "below",
+        "next",
+        "under",
+        "lower"
+      ],
+      "note": "used as a preposition, verb, or adjective indicating position or direction",
+      "pinyin": "xià",
+      "tone": 4,
+      "sentence": "请把书放在桌子下面。",
+      "sentencePinyin": "Qǐng bǎ shū fàng zài zhuōzi xiàmiàn.",
+      "sentenceTranslation": "Please put the book under the table.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:26.044Z"
+    },
+    "谢谢": {
+      "translations": [
+        "thank you"
+      ],
+      "note": "",
+      "pinyin": "xièxie",
+      "tone": 4,
+      "sentence": "谢谢你的帮助。",
+      "sentencePinyin": "Xièxie nǐ de bāngzhù.",
+      "sentenceTranslation": "Thank you for your help.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:28.505Z"
+    },
+    "先生": {
+      "translations": [
+        "sir",
+        "mister",
+        "Mr."
+      ],
+      "note": "formal title for a man",
+      "pinyin": "xiānsheng",
+      "tone": 1,
+      "sentence": "他是我的老师，叫李先生。",
+      "sentencePinyin": "Tā shì wǒ de lǎoshī, jiào Lǐ xiānsheng.",
+      "sentenceTranslation": "He is my teacher, called Mr. Li.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:31.576Z"
+    },
+    "喜欢": {
+      "translations": [
+        "like",
+        "love"
+      ],
+      "note": "expresses liking or preference",
+      "pinyin": "xǐ huān",
+      "tone": 3,
+      "sentence": "我喜欢吃苹果。",
+      "sentencePinyin": "Wǒ xǐ huān chī píngguǒ.",
+      "sentenceTranslation": "I like to eat apples.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:34.342Z"
+    },
+    "大": {
+      "translations": [
+        "big",
+        "large",
+        "great",
+        "grand"
+      ],
+      "note": "used to describe size, extent, or importance",
+      "pinyin": "dà",
+      "tone": 4,
+      "sentence": "这是一只大狗。",
+      "sentencePinyin": "Zhè shì yī zhī dà gǒu.",
+      "sentenceTranslation": "This is a big dog.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:38.229Z"
+    },
+    "东西": {
+      "translations": [
+        "thing",
+        "object",
+        "stuff"
+      ],
+      "note": "refers to things or objects, not necessarily specific",
+      "pinyin": "dōngxi",
+      "tone": 4,
+      "sentence": "你带了什么东西？",
+      "sentencePinyin": "Nǐ dàile shénme dōngxi?",
+      "sentenceTranslation": "What did you bring?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:40.281Z"
+    },
+    "小": {
+      "translations": [
+        "small",
+        "little",
+        "young"
+      ],
+      "note": "used to describe size or age",
+      "pinyin": "xiǎo",
+      "tone": 3,
+      "sentence": "这个苹果很小。",
+      "sentencePinyin": "Zhège píngguǒ hěn xiǎo.",
+      "sentenceTranslation": "This apple is small.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:43.482Z"
+    },
+    "叫": {
+      "translations": [
+        "to shout",
+        "to call",
+        "to cry",
+        "to yell"
+      ],
+      "note": "used to call or shout",
+      "pinyin": "jiào",
+      "tone": 4,
+      "sentence": "他在叫我。",
+      "sentencePinyin": "Tā zài jiào wǒ.",
+      "sentenceTranslation": "He is calling me.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:47.063Z"
+    },
+    "爱": {
+      "translations": [
+        "love"
+      ],
+      "note": "",
+      "pinyin": "ài",
+      "tone": 4,
+      "sentence": "我爱你。",
+      "sentencePinyin": "Wǒ ài nǐ.",
+      "sentenceTranslation": "I love you.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:48.598Z"
+    },
+    "年": {
+      "translations": [
+        "year"
+      ],
+      "note": "",
+      "pinyin": "nián",
+      "tone": 2,
+      "sentence": "我今年二十岁。",
+      "sentencePinyin": "Wǒ jīnnián èrshí suì.",
+      "sentenceTranslation": "I am twenty years old this year.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:51.571Z"
+    },
+    "请": {
+      "translations": [
+        "please",
+        "to request",
+        "to invite"
+      ],
+      "note": "used to make polite requests or invitations",
+      "pinyin": "qǐng",
+      "tone": 3,
+      "sentence": "请你帮我一下。",
+      "sentencePinyin": "Qǐng nǐ bāng wǒ yíxià.",
+      "sentenceTranslation": "Please help me a bit.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:53.515Z"
+    },
+    "回": {
+      "translations": [
+        "return",
+        "reply",
+        "circle",
+        "revolve",
+        "go back"
+      ],
+      "note": "used for returning, replying, or indicating a direction or movement back",
+      "pinyin": "huí",
+      "tone": 2,
+      "sentence": "我会在明天回来。",
+      "sentencePinyin": "Wǒ huì zài míngtiān huílái.",
+      "sentenceTranslation": "I will come back tomorrow.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:56.382Z"
+    },
+    "工作": {
+      "translations": [
+        "work",
+        "job"
+      ],
+      "note": "used for employment or tasks",
+      "pinyin": "gōngzuò",
+      "tone": 4,
+      "sentence": "我每天都去工作。",
+      "sentencePinyin": "Wǒ měitiān dōu qù gōngzuò.",
+      "sentenceTranslation": "I go to work every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:06:59.252Z"
+    },
+    "钱": {
+      "translations": [
+        "money",
+        "cash"
+      ],
+      "note": "",
+      "pinyin": "qián",
+      "tone": 2,
+      "sentence": "我需要一些钱买东西。",
+      "sentencePinyin": "Wǒ xūyào yīxiē qián mǎi dōngxi.",
+      "sentenceTranslation": "I need some money to buy things.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:07:01.811Z"
+    },
+    "吃": {
+      "translations": [
+        "eat"
+      ],
+      "note": "",
+      "pinyin": "chī",
+      "tone": 1,
+      "sentence": "我喜欢吃苹果。",
+      "sentencePinyin": "Wǒ xǐhuān chī píngguǒ.",
+      "sentenceTranslation": "I like to eat apples.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:07:03.547Z"
+    },
+    "开": {
+      "translations": [
+        "to open",
+        "to start",
+        "to turn on",
+        "to hold",
+        "to hold open",
+        "to operate",
+        "to run",
+        "to develop"
+      ],
+      "note": "used for opening, starting, or operating",
+      "pinyin": "kāi",
+      "tone": 1,
+      "sentence": "请你开门。",
+      "sentencePinyin": "Qǐng nǐ kāi mén.",
+      "sentenceTranslation": "Please open the door.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:07:06.815Z"
+    },
+    "家": {
+      "translations": [
+        "home",
+        "family",
+        "house"
+      ],
+      "note": "",
+      "pinyin": "jiā",
+      "tone": 1,
+      "sentence": "我回家了。",
+      "sentencePinyin": "Wǒ huí jiā le.",
+      "sentenceTranslation": "I went home.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:07:09.380Z"
+    },
+    "哪": {
+      "translations": [
+        "which",
+        "what",
+        "where"
+      ],
+      "note": "used to form questions",
+      "pinyin": "nǎ",
+      "tone": 3,
+      "sentence": "你想去哪里？",
+      "sentencePinyin": "Nǐ xiǎng qù nǎlǐ?",
+      "sentenceTranslation": "Where do you want to go?",
+      "sentenceDefinition": "used to ask about location or choice",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:07:24.296Z"
+    },
+    "朋友": {
+      "translations": [
+        "friend"
+      ],
+      "note": "",
+      "pinyin": "péngyou",
+      "tone": 2,
+      "sentence": "我有很多朋友。",
+      "sentencePinyin": "Wǒ yǒu hěn duō péngyou.",
+      "sentenceTranslation": "I have many friends.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:07:26.551Z"
+    },
+    "妈妈": {
+      "translations": [
+        "mother",
+        "mom"
+      ],
+      "note": "third-person singular feminine pronoun",
+      "pinyin": "māma",
+      "tone": 1,
+      "sentence": "我爱我的妈妈。",
+      "sentencePinyin": "Wǒ ài wǒ de māma.",
+      "sentenceTranslation": "I love my mom.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:07:28.295Z"
+    },
+    "今天": {
+      "translations": [
+        "today"
+      ],
+      "note": "",
+      "pinyin": "jīn tiān",
+      "tone": 4,
+      "sentence": "今天是星期一。",
+      "sentencePinyin": "Jīn tiān shì xīngqī yī.",
+      "sentenceTranslation": "Today is Monday.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:07:30.232Z"
+    },
+    "几": {
+      "translations": [
+        "how many",
+        "several",
+        "a few",
+        "some"
+      ],
+      "note": "used to ask about quantity or to indicate an approximate number",
+      "pinyin": "jǐ",
+      "tone": 3,
+      "sentence": "你有几本书？",
+      "sentencePinyin": "Nǐ yǒu jǐ běn shū?",
+      "sentenceTranslation": "How many books do you have?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:07:32.693Z"
+    },
+    "爸爸": {
+      "translations": [
+        "father",
+        "dad"
+      ],
+      "note": "father or dad",
+      "pinyin": "bàba",
+      "tone": 4,
+      "sentence": "我喜欢我的爸爸。",
+      "sentencePinyin": "Wǒ xǐhuān wǒ de bàba.",
+      "sentenceTranslation": "I like my dad.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:07:45.700Z"
+    },
+    "些": {
+      "translations": [
+        "some",
+        "a few",
+        "several",
+        "a little"
+      ],
+      "note": "indicates an unspecified amount or number",
+      "pinyin": "xiē",
+      "tone": 1,
+      "sentence": "我买了一些水果。",
+      "sentencePinyin": "Wǒ mǎile yīxiē shuǐguǒ.",
+      "sentenceTranslation": "I bought some fruit.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:07:48.051Z"
+    },
+    "怎么样": {
+      "translations": [
+        "how",
+        "about",
+        "what"
+      ],
+      "note": "used to ask about something or someone's condition",
+      "pinyin": "zěn me yàng",
+      "tone": "- 3 4",
+      "sentence": "你觉得这部电影怎么样？",
+      "sentencePinyin": "Nǐ juéde zhè bù diànyǐng zěn me yàng?",
+      "sentenceTranslation": "What do you think of this movie?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:08:02.368Z"
+    },
+    "对不起": {
+      "translations": [
+        "Sorry",
+        "I'm sorry"
+      ],
+      "note": "used to apologize or express regret",
+      "pinyin": "duìbuqǐ",
+      "tone": 4,
+      "sentence": "对不起，我迟到了。",
+      "sentencePinyin": "Duìbùqǐ, wǒ chídào le.",
+      "sentenceTranslation": "Sorry, I am late.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:08:17.520Z"
+    },
+    "住": {
+      "translations": [
+        "live",
+        "reside",
+        "stay",
+        "inhabit"
+      ],
+      "note": "",
+      "pinyin": "zhù",
+      "tone": 4,
+      "sentence": "我住在北京。",
+      "sentencePinyin": "Wǒ zhù zài Běijīng.",
+      "sentenceTranslation": "I live in Beijing.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:08:19.461Z"
+    },
+    "三": {
+      "translations": [
+        "three"
+      ],
+      "note": "",
+      "pinyin": "sān",
+      "tone": 3,
+      "sentence": "我有三本书。",
+      "sentencePinyin": "Wǒ yǒu sān běn shū.",
+      "sentenceTranslation": "I have three books.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:08:21.715Z"
+    },
+    "高兴": {
+      "translations": [
+        "happy",
+        "glad",
+        "pleased"
+      ],
+      "note": "expresses happiness or joy",
+      "pinyin": "gāo xìng",
+      "tone": 1,
+      "sentence": "我很高兴今天能见到你。",
+      "sentencePinyin": "Wǒ hěn gāo xìng jīntiān néng jiàn dào nǐ.",
+      "sentenceTranslation": "I am very happy to see you today.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:08:23.767Z"
+    },
+    "买": {
+      "translations": [
+        "buy"
+      ],
+      "note": "",
+      "pinyin": "mǎi",
+      "tone": 4,
+      "sentence": "我想买一件衣服。",
+      "sentencePinyin": "Wǒ xiǎng mǎi yī jiàn yīfú.",
+      "sentenceTranslation": "I want to buy a piece of clothing.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:08:40.167Z"
+    },
+    "医生": {
+      "translations": [
+        "doctor",
+        "physician"
+      ],
+      "note": "",
+      "pinyin": "yīshēng",
+      "tone": 1,
+      "sentence": "我去看医生。",
+      "sentencePinyin": "Wǒ qù kàn yīshēng.",
+      "sentenceTranslation": "I am going to see the doctor.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:08:42.217Z"
+    },
+    "哪儿": {
+      "translations": [
+        "where"
+      ],
+      "note": "question word for location",
+      "pinyin": "nǎr",
+      "tone": 3,
+      "sentence": "你去哪儿？",
+      "sentencePinyin": "Nǐ qù nǎr?",
+      "sentenceTranslation": "Where are you going?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:08:43.749Z"
+    },
+    "名字": {
+      "translations": [
+        "name"
+      ],
+      "note": "",
+      "pinyin": "míngzì",
+      "tone": 4,
+      "sentence": "他的名字叫李华。",
+      "sentencePinyin": "Tā de míngzì jiào Lǐ Huá.",
+      "sentenceTranslation": "His name is Li Hua.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:08:45.898Z"
+    },
+    "认识": {
+      "translations": [
+        "to know",
+        "to recognize",
+        "to be familiar with"
+      ],
+      "note": "used for recognizing or being acquainted with someone or something",
+      "pinyin": "rènshi",
+      "tone": 4,
+      "sentence": "我认识他。",
+      "sentencePinyin": "Wǒ rènshi tā.",
+      "sentenceTranslation": "I know him.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:08:47.947Z"
+    },
+    "坐": {
+      "translations": [
+        "sit",
+        "to sit"
+      ],
+      "note": "",
+      "pinyin": "zuò",
+      "tone": 4,
+      "sentence": "我喜欢在公园里坐着看书。",
+      "sentencePinyin": "Wǒ xǐhuān zài gōngyuán lǐ zuòzhe kànshū.",
+      "sentenceTranslation": "I like to sit in the park and read.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:08:50.405Z"
+    },
+    "喝": {
+      "translations": [
+        "drink"
+      ],
+      "note": "",
+      "pinyin": "hē",
+      "tone": 1,
+      "sentence": "我想喝水。",
+      "sentencePinyin": "Wǒ xiǎng hē shuǐ.",
+      "sentenceTranslation": "I want to drink water.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:08:52.251Z"
+    },
+    "写": {
+      "translations": [
+        "write",
+        "compose",
+        "draw",
+        "sketch"
+      ],
+      "note": "used for writing or drawing",
+      "pinyin": "xiě",
+      "tone": 4,
+      "sentence": "我喜欢在空白的纸上写字。",
+      "sentencePinyin": "Wǒ xǐhuān zài kòngbái de zhǐ shàng xiězì.",
+      "sentenceTranslation": "I like to write on blank paper.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:08:53.578Z"
+    },
+    "月": {
+      "translations": [
+        "moon",
+        "month"
+      ],
+      "note": "used to denote the moon or a month",
+      "pinyin": "yuè",
+      "tone": 4,
+      "sentence": "我喜欢在月光下散步。",
+      "sentencePinyin": "Wǒ xǐhuān zài yuèguāng xià sànbù.",
+      "sentenceTranslation": "I like to walk under the moonlight.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:08:56.345Z"
+    },
+    "号": {
+      "translations": [
+        "number",
+        "mark",
+        "sign",
+        "date",
+        "call number"
+      ],
+      "note": "used as a number or identifier, also as a sign or mark",
+      "pinyin": "hào",
+      "tone": 4,
+      "sentence": "请记下你的电话号码。",
+      "sentencePinyin": "Qǐng jì xià nǐ de diànhuà hàomǎ.",
+      "sentenceTranslation": "Please remember your phone number.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:09:15.224Z"
+    },
+    "狗": {
+      "translations": [
+        "dog"
+      ],
+      "note": "",
+      "pinyin": "gǒu",
+      "tone": 3,
+      "sentence": "我养了一只狗。",
+      "sentencePinyin": "Wǒ yǎng le yì zhī gǒu.",
+      "sentenceTranslation": "I have a dog.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:09:31.596Z"
+    },
+    "岁": {
+      "translations": [
+        "year",
+        "age"
+      ],
+      "note": "used to indicate age or years of age",
+      "pinyin": "suì",
+      "tone": 4,
+      "sentence": "我今年十岁。",
+      "sentencePinyin": "Wǒ jīnnián shí suì.",
+      "sentenceTranslation": "I am ten years old this year.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:09:40.306Z"
+    },
+    "看见": {
+      "translations": [
+        "see",
+        "catch sight of"
+      ],
+      "note": "used to mean 'to see' or 'to notice' in general",
+      "pinyin": "kàn jiàn",
+      "tone": 4,
+      "sentence": "我看见了一只鸟。",
+      "sentencePinyin": "Wǒ kànjiànle yì zhī niǎo.",
+      "sentenceTranslation": "I saw a bird.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:09:42.758Z"
+    },
+    "打电话": {
+      "translations": [
+        "to make a phone call",
+        "to call"
+      ],
+      "note": "used to refer to making a phone call",
+      "pinyin": "dǎ diànhuà",
+      "tone": 4,
+      "sentence": "我正在打电话给朋友。",
+      "sentencePinyin": "Wǒ zhèngzài dǎ diànhuà gěi péngyǒu.",
+      "sentenceTranslation": "I am making a phone call to my friend.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:09:44.805Z"
+    },
+    "喂": {
+      "translations": [
+        "hello",
+        "hey",
+        "hi"
+      ],
+      "note": "used to answer the phone or get someone's attention",
+      "pinyin": "wèi",
+      "tone": 4,
+      "sentence": "喂，你好！",
+      "sentencePinyin": "Wèi, nǐ hǎo!",
+      "sentenceTranslation": "Hello, how are you!",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:09:46.441Z"
+    },
+    "儿子": {
+      "translations": [
+        "son"
+      ],
+      "note": "",
+      "pinyin": "érzi",
+      "tone": 4,
+      "sentence": "他的儿子在学校。",
+      "sentencePinyin": "Tā de érzi zài xuéxiào.",
+      "sentenceTranslation": "His son is at school.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:09:48.492Z"
+    },
+    "漂亮": {
+      "translations": [
+        "beautiful",
+        "pretty"
+      ],
+      "note": "",
+      "pinyin": "piàoliang",
+      "tone": 4,
+      "sentence": "她穿着一件漂亮的裙子。",
+      "sentencePinyin": "Tā chuānzhuó yī jiàn piàoliang de qúnzi.",
+      "sentenceTranslation": "She is wearing a beautiful dress.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:09:50.844Z"
+    },
+    "分钟": {
+      "translations": [
+        "minute"
+      ],
+      "note": "",
+      "pinyin": "fēnzhōng",
+      "tone": 1,
+      "sentence": "我等了十分钟。",
+      "sentencePinyin": "Wǒ děngle shí fēnzhōng.",
+      "sentenceTranslation": "I waited for ten minutes.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:09:52.998Z"
+    },
+    "再见": {
+      "translations": [
+        "goodbye",
+        "see you again"
+      ],
+      "note": "",
+      "pinyin": "zàijiàn",
+      "tone": 4,
+      "sentence": "我们明天再见。",
+      "sentencePinyin": "Wǒmen míngtiān zàijiàn.",
+      "sentenceTranslation": "See you tomorrow.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:09:55.247Z"
+    },
+    "本": {
+      "translations": [
+        "root",
+        "this",
+        "current",
+        "original",
+        "main",
+        "basis"
+      ],
+      "note": "used as a measure word or to indicate the original or main",
+      "pinyin": "běn",
+      "tone": 3,
+      "sentence": "这是我的书本。",
+      "sentencePinyin": "Zhè shì wǒ de shūběn.",
+      "sentenceTranslation": "This is my book.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:09:57.808Z"
+    },
+    "明天": {
+      "translations": [
+        "tomorrow"
+      ],
+      "note": "",
+      "pinyin": "míngtiān",
+      "tone": 3,
+      "sentence": "我们明天去公园。",
+      "sentencePinyin": "Wǒmen míngtiān qù gōngyuán.",
+      "sentenceTranslation": "We will go to the park tomorrow.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:10:13.119Z"
+    },
+    "多少": {
+      "translations": [
+        "how much",
+        "how many"
+      ],
+      "note": "",
+      "pinyin": "duō shǎo",
+      "tone": "- -",
+      "sentence": "你想买多少苹果？",
+      "sentencePinyin": "Nǐ xiǎng mǎi duō shǎo píngguǒ?",
+      "sentenceTranslation": "How many apples do you want to buy?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:10:15.070Z"
+    },
+    "块": {
+      "translations": [
+        "piece",
+        "lump",
+        "chunk",
+        "block",
+        "measure word"
+      ],
+      "note": "measure word for pieces or lumps",
+      "pinyin": "kuài",
+      "tone": 4,
+      "sentence": "请给我一块蛋糕。",
+      "sentencePinyin": "Qǐng gěi wǒ yī kuài dàngāo.",
+      "sentenceTranslation": "Please give me a piece of cake.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:10:17.873Z"
+    },
+    "女儿": {
+      "translations": [
+        "daughter"
+      ],
+      "note": "",
+      "pinyin": "nǚ'ér",
+      "tone": 3,
+      "sentence": "她的女儿很可爱。",
+      "sentencePinyin": "Tā de nǚ'ér hěn kě'ài.",
+      "sentenceTranslation": "Her daughter is very cute.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:10:20.395Z"
+    },
+    "小姐": {
+      "translations": [
+        "miss",
+        "young lady",
+        "Miss"
+      ],
+      "note": "term for a young woman or girl, polite address",
+      "pinyin": "xiǎojiě",
+      "tone": 3,
+      "sentence": "小姐，请问你需要帮助吗？",
+      "sentencePinyin": "Xiǎojiě, qǐngwèn nǐ xūyào bāngzhù ma?",
+      "sentenceTranslation": "Miss, may I ask if you need help?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:10:37.805Z"
+    },
+    "衣服": {
+      "translations": [
+        "clothing",
+        "clothes"
+      ],
+      "note": "",
+      "pinyin": "yīfú",
+      "tone": 2,
+      "sentence": "我喜欢这件衣服。",
+      "sentencePinyin": "Wǒ xǐhuān zhè jiàn yīfú.",
+      "sentenceTranslation": "I like this piece of clothing.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:10:39.234Z"
+    },
+    "水": {
+      "translations": [
+        "water"
+      ],
+      "note": "",
+      "pinyin": "shuǐ",
+      "tone": 3,
+      "sentence": "我喝了一杯水。",
+      "sentencePinyin": "Wǒ hēle yì bēi shuǐ.",
+      "sentenceTranslation": "I drank a glass of water.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:10:40.770Z"
+    },
+    "学校": {
+      "translations": [
+        "school"
+      ],
+      "note": "",
+      "pinyin": "xué xiào",
+      "tone": 4,
+      "sentence": "我每天去学校学习。",
+      "sentencePinyin": "Wǒ měitiān qù xuéxiào xuéxí.",
+      "sentenceTranslation": "I go to school every day to study.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:10:43.125Z"
+    },
+    "电影": {
+      "translations": [
+        "movie",
+        "film"
+      ],
+      "note": "",
+      "pinyin": "diànyǐng",
+      "tone": 4,
+      "sentence": "我喜欢看电影。",
+      "sentencePinyin": "Wǒ xǐhuān kàn diànyǐng.",
+      "sentenceTranslation": "I like watching movies.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:11:00.116Z"
+    },
+    "书": {
+      "translations": [
+        "book",
+        "document",
+        "letter"
+      ],
+      "note": "",
+      "pinyin": "shū",
+      "tone": 1,
+      "sentence": "我在图书馆借了一本书。",
+      "sentencePinyin": "Wǒ zài túshūguǎn jièle yì běn shū.",
+      "sentenceTranslation": "I borrowed a book from the library.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:11:02.263Z"
+    },
+    "四": {
+      "translations": [
+        "four"
+      ],
+      "note": "",
+      "pinyin": "sì",
+      "tone": 4,
+      "sentence": "我有四本书。",
+      "sentencePinyin": "Wǒ yǒu sì běn shū.",
+      "sentenceTranslation": "I have four books.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:11:17.051Z"
+    },
+    "五": {
+      "translations": [
+        "five"
+      ],
+      "note": "",
+      "pinyin": "wǔ",
+      "tone": 3,
+      "sentence": "我有五个苹果。",
+      "sentencePinyin": "Wǒ yǒu wǔ gè píngguǒ.",
+      "sentenceTranslation": "I have five apples.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:11:19.916Z"
+    },
+    "医院": {
+      "translations": [
+        "hospital"
+      ],
+      "note": "",
+      "pinyin": "yīyuàn",
+      "tone": 4,
+      "sentence": "我去医院看病。",
+      "sentencePinyin": "Wǒ qù yīyuàn kàn bìng.",
+      "sentenceTranslation": "I go to the hospital to see a doctor.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:11:36.389Z"
+    },
+    "少": {
+      "translations": [
+        "few",
+        "little",
+        "less",
+        "short"
+      ],
+      "note": "indicates small amount or degree",
+      "pinyin": "shǎo",
+      "tone": 3,
+      "sentence": "我只有少量的钱。",
+      "sentencePinyin": "Wǒ zhǐ yǒu shǎoliàng de qián.",
+      "sentenceTranslation": "I have only a small amount of money.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:11:38.435Z"
+    },
+    "没关系": {
+      "translations": [
+        "no problem",
+        "it's okay",
+        "never mind"
+      ],
+      "note": "used to indicate apology or to dismiss concern",
+      "pinyin": "méi guānxi",
+      "tone": 4,
+      "sentence": "对不起，我迟到了。没关系。",
+      "sentencePinyin": "Duìbùqǐ, wǒ chídào le. Méi guānxi.",
+      "sentenceTranslation": "Sorry, I'm late. It's okay.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:11:40.892Z"
+    },
+    "飞机": {
+      "translations": [
+        "airplane",
+        "aeroplane"
+      ],
+      "note": "",
+      "pinyin": "fēijī",
+      "tone": 1,
+      "sentence": "我坐飞机去北京。",
+      "sentencePinyin": "Wǒ zuò fēijī qù Běijīng.",
+      "sentenceTranslation": "I take a plane to Beijing.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:11:42.737Z"
+    },
+    "二": {
+      "translations": [
+        "two"
+      ],
+      "note": "",
+      "pinyin": "èr",
+      "tone": 4,
+      "sentence": "我有二个苹果。",
+      "sentencePinyin": "Wǒ yǒu èr gè píngguǒ.",
+      "sentenceTranslation": "I have two apples.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:11:45.508Z"
+    },
+    "电视": {
+      "translations": [
+        "television",
+        "TV"
+      ],
+      "note": "",
+      "pinyin": "diànshì",
+      "tone": 4,
+      "sentence": "我每天晚上都看电视。",
+      "sentencePinyin": "Wǒ měitiān wǎnshàng dōu kàn diànshì.",
+      "sentenceTranslation": "I watch TV every evening.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:11:48.821Z"
+    },
+    "读": {
+      "translations": [
+        "to read",
+        "to study",
+        "to attend (school)"
+      ],
+      "note": "used for reading, studying, or attending school",
+      "pinyin": "dú",
+      "tone": 2,
+      "sentence": "我每天都读书。",
+      "sentencePinyin": "Wǒ měitiān dōu dú shū.",
+      "sentenceTranslation": "I read books every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:04.925Z"
+    },
+    "后面": {
+      "translations": [
+        "back",
+        "behind",
+        "rear",
+        "later"
+      ],
+      "note": "indicates position behind or at the back of something",
+      "pinyin": "hòu miàn",
+      "tone": 4,
+      "sentence": "书包在桌子后面。",
+      "sentencePinyin": "Shūbāo zài zhuōzi hòu miàn.",
+      "sentenceTranslation": "The backpack is behind the table.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:08.124Z"
+    },
+    "昨天": {
+      "translations": [
+        "yesterday"
+      ],
+      "note": "",
+      "pinyin": "zuótiān",
+      "tone": 4,
+      "sentence": "昨天我去了商店。",
+      "sentencePinyin": "Zuótiān wǒ qùle shāngdiàn.",
+      "sentenceTranslation": "Yesterday I went to the store.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:09.661Z"
+    },
+    "睡觉": {
+      "translations": [
+        "sleep"
+      ],
+      "note": "",
+      "pinyin": "shuì jiào",
+      "tone": 4,
+      "sentence": "我每天晚上十点睡觉。",
+      "sentencePinyin": "Wǒ měitiān wǎnshàng shí diǎn shuìjiào.",
+      "sentenceTranslation": "I go to sleep at 10 o'clock every night.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:11.506Z"
+    },
+    "六": {
+      "translations": [
+        "six"
+      ],
+      "note": "",
+      "pinyin": "liù",
+      "tone": 4,
+      "sentence": "我有六本书。",
+      "sentencePinyin": "Wǒ yǒu liù běn shū.",
+      "sentenceTranslation": "I have six books.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:24.949Z"
+    },
+    "老师": {
+      "translations": [
+        "teacher",
+        "instructor"
+      ],
+      "note": "",
+      "pinyin": "lǎoshī",
+      "tone": 3,
+      "sentence": "我的老师很友善。",
+      "sentencePinyin": "Wǒ de lǎoshī hěn yǒushàn.",
+      "sentenceTranslation": "My teacher is very friendly.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:28.485Z"
+    },
+    "星期": {
+      "translations": [
+        "week"
+      ],
+      "note": "",
+      "pinyin": "xīngqī",
+      "tone": 1,
+      "sentence": "我们每个星期都去游泳。",
+      "sentencePinyin": "Wǒmen měi gè xīngqī dōu qù yóuyǒng.",
+      "sentenceTranslation": "We go swimming every week.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:43.457Z"
+    },
+    "十": {
+      "translations": [
+        "ten"
+      ],
+      "note": "",
+      "pinyin": "shí",
+      "tone": 2,
+      "sentence": "我有十个苹果。",
+      "sentencePinyin": "Wǒ yǒu shí gè píngguǒ.",
+      "sentenceTranslation": "I have ten apples.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:45.403Z"
+    },
+    "猫": {
+      "translations": [
+        "cat"
+      ],
+      "note": "",
+      "pinyin": "māo",
+      "tone": 1,
+      "sentence": "我喜欢猫。",
+      "sentencePinyin": "Wǒ xǐhuān māo.",
+      "sentenceTranslation": "I like cats.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:46.945Z"
+    },
+    "电脑": {
+      "translations": [
+        "computer"
+      ],
+      "note": "",
+      "pinyin": "diànnǎo",
+      "tone": 3,
+      "sentence": "我每天都用电脑工作。",
+      "sentencePinyin": "Wǒ měitiān dōu yòng diànnǎo gōngzuò.",
+      "sentenceTranslation": "I use the computer to work every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:48.576Z"
+    },
+    "热": {
+      "translations": [
+        "hot",
+        "heat",
+        "warm"
+      ],
+      "note": "used to describe temperature or feelings of warmth",
+      "pinyin": "rè",
+      "tone": 4,
+      "sentence": "天气很热，我想喝冷饮。",
+      "sentencePinyin": "Tiānqì hěn rè, wǒ xiǎng hē lěng yǐn.",
+      "sentenceTranslation": "The weather is very hot, I want to drink cold beverages.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:51.343Z"
+    },
+    "学生": {
+      "translations": [
+        "student"
+      ],
+      "note": "",
+      "pinyin": "xué shēng",
+      "tone": 4,
+      "sentence": "他是一个学生。",
+      "sentencePinyin": "Tā shì yí gè xué shēng.",
+      "sentenceTranslation": "He is a student.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:53.496Z"
+    },
+    "下午": {
+      "translations": [
+        "afternoon"
+      ],
+      "note": "",
+      "pinyin": "xiàwǔ",
+      "tone": 4,
+      "sentence": "我们下午去公园。",
+      "sentencePinyin": "Wǒmen xiàwǔ qù gōngyuán.",
+      "sentenceTranslation": "We are going to the park in the afternoon.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:55.951Z"
+    },
+    "字": {
+      "translations": [
+        "character",
+        "word"
+      ],
+      "note": "",
+      "pinyin": "zì",
+      "tone": 4,
+      "sentence": "这个字很难写。",
+      "sentencePinyin": "Zhège zì hěn nán xiě.",
+      "sentenceTranslation": "This character is difficult to write.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:58.313Z"
+    },
+    "学习": {
+      "translations": [
+        "study",
+        "learn"
+      ],
+      "note": "",
+      "pinyin": "xuéxí",
+      "tone": 2,
+      "sentence": "我每天都学习中文。",
+      "sentencePinyin": "Wǒ měitiān dōu xuéxí Zhōngwén.",
+      "sentenceTranslation": "I study Chinese every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:12:59.843Z"
+    },
+    "冷": {
+      "translations": [
+        "cold"
+      ],
+      "note": "",
+      "pinyin": "lěng",
+      "tone": 3,
+      "sentence": "今天很冷，我们要穿厚一点的衣服。",
+      "sentencePinyin": "Jīntiān hěn lěng, wǒmen yào chuān hòu yīdiǎn de yīfú.",
+      "sentenceTranslation": "It's very cold today, we need to wear thicker clothes.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:02.296Z"
+    },
+    "前面": {
+      "translations": [
+        "front",
+        "ahead",
+        "in front of"
+      ],
+      "note": "indicates position in front of something or someone",
+      "pinyin": "qiánmiàn",
+      "tone": 4,
+      "sentence": "请看前面的人。",
+      "sentencePinyin": "Qǐng kàn qiánmiàn de rén.",
+      "sentenceTranslation": "Please look at the person in front.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:03.836Z"
+    },
+    "八": {
+      "translations": [
+        "eight"
+      ],
+      "note": "",
+      "pinyin": "bā",
+      "tone": 4,
+      "sentence": "我有八本书。",
+      "sentencePinyin": "Wǒ yǒu bā běn shū.",
+      "sentenceTranslation": "I have eight books.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:05.948Z"
+    },
+    "中国": {
+      "translations": [
+        "China",
+        "Middle Kingdom"
+      ],
+      "note": "country name",
+      "pinyin": "Zhōngguó",
+      "tone": 1,
+      "sentence": "中国是一个拥有悠久历史的国家。",
+      "sentencePinyin": "Zhōngguó shì yí gè yōng yǒu yōu jiǔ lì shǐ de guó jiā.",
+      "sentenceTranslation": "China is a country with a long history.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:08.145Z"
+    },
+    "七": {
+      "translations": [
+        "seven"
+      ],
+      "note": "",
+      "pinyin": "qī",
+      "tone": 1,
+      "sentence": "我有七个苹果。",
+      "sentencePinyin": "Wǒ yǒu qī gè píngguǒ.",
+      "sentenceTranslation": "I have seven apples.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:09.570Z"
+    },
+    "菜": {
+      "translations": [
+        "vegetable",
+        "dish",
+        "cuisine"
+      ],
+      "note": "used for vegetables and dishes in general",
+      "pinyin": "cài",
+      "tone": 4,
+      "sentence": "我喜欢吃家常菜。",
+      "sentencePinyin": "Wǒ xǐhuān chī jiācháng cài.",
+      "sentenceTranslation": "I like to eat home-cooked dishes.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:11.121Z"
+    },
+    "桌子": {
+      "translations": [
+        "table"
+      ],
+      "note": "",
+      "pinyin": "zhuōzi",
+      "tone": 4,
+      "sentence": "桌子上有一本书。",
+      "sentencePinyin": "Zhuōzi shàng yǒu yī běn shū.",
+      "sentenceTranslation": "There is a book on the table.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:13.111Z"
+    },
+    "出租车": {
+      "translations": [
+        "taxi",
+        "cab"
+      ],
+      "note": "",
+      "pinyin": "chūzūchē",
+      "tone": 4,
+      "sentence": "我打车去公司。",
+      "sentencePinyin": "Wǒ dǎ chē qù gōngsī.",
+      "sentenceTranslation": "I take a taxi to the company.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:15.615Z"
+    },
+    "天气": {
+      "translations": [
+        "weather"
+      ],
+      "note": "",
+      "pinyin": "tiān qì",
+      "tone": 4,
+      "sentence": "今天天气很好。",
+      "sentencePinyin": "Jīntiān tiānqì hěn hǎo.",
+      "sentenceTranslation": "The weather is very good today.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:17.663Z"
+    },
+    "茶": {
+      "translations": [
+        "tea"
+      ],
+      "note": "",
+      "pinyin": "chá",
+      "tone": 2,
+      "sentence": "我喜欢喝绿茶。",
+      "sentencePinyin": "Wǒ xǐhuān hē lǜchá.",
+      "sentenceTranslation": "I like to drink green tea.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:19.502Z"
+    },
+    "九": {
+      "translations": [
+        "nine"
+      ],
+      "note": "",
+      "pinyin": "jiǔ",
+      "tone": 3,
+      "sentence": "我有九个苹果。",
+      "sentencePinyin": "Wǒ yǒu jiǔ gè píngguǒ.",
+      "sentenceTranslation": "I have nine apples.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:21.448Z"
+    },
+    "商店": {
+      "translations": [
+        "shop",
+        "store"
+      ],
+      "note": "",
+      "pinyin": "shāngdiàn",
+      "tone": 4,
+      "sentence": "我去商店买东西。",
+      "sentencePinyin": "Wǒ qù shāngdiàn mǎi dōngxi.",
+      "sentenceTranslation": "I go to the store to buy things.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:33.956Z"
+    },
+    "椅子": {
+      "translations": [
+        "chair"
+      ],
+      "note": "",
+      "pinyin": "yǐzi",
+      "tone": 3,
+      "sentence": "我坐在椅子上。",
+      "sentencePinyin": "Wǒ zuò zài yǐzi shàng.",
+      "sentenceTranslation": "I am sitting on the chair.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:36.004Z"
+    },
+    "同学": {
+      "translations": [
+        "classmate"
+      ],
+      "note": "",
+      "pinyin": "tóng xué",
+      "tone": 4,
+      "sentence": "我和我的同学一起学习。",
+      "sentencePinyin": "Wǒ hé wǒ de tóng xué yīqǐ xuéxí.",
+      "sentenceTranslation": "My classmates and I study together.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:37.543Z"
+    },
+    "一点儿": {
+      "translations": [
+        "a little",
+        "a bit",
+        "some"
+      ],
+      "note": "used to indicate a small amount or degree",
+      "pinyin": "yī diǎnr",
+      "tone": 3,
+      "sentence": "我喝了一点儿水。",
+      "sentencePinyin": "Wǒ hē le yī diǎnr shuǐ.",
+      "sentenceTranslation": "I drank a little water.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:39.492Z"
+    },
+    "苹果": {
+      "translations": [
+        "apple"
+      ],
+      "note": "",
+      "pinyin": "píngguǒ",
+      "tone": 2,
+      "sentence": "我喜欢吃苹果。",
+      "sentencePinyin": "Wǒ xǐhuān chī píngguǒ.",
+      "sentenceTranslation": "I like to eat apples.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:41.332Z"
+    },
+    "饭店": {
+      "translations": [
+        "restaurant",
+        "hotel"
+      ],
+      "note": "used for a restaurant or hotel",
+      "pinyin": "fàn diàn",
+      "tone": "4-4",
+      "sentence": "我想去饭店吃饭。",
+      "sentencePinyin": "Wǒ xiǎng qù fàndiàn chīfàn.",
+      "sentenceTranslation": "I want to go to the restaurant to eat.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:43.682Z"
+    },
+    "中午": {
+      "translations": [
+        "noon",
+        "midday"
+      ],
+      "note": "",
+      "pinyin": "zhōngwǔ",
+      "tone": 1,
+      "sentence": "我们中午一起吃饭。",
+      "sentencePinyin": "Wǒmen zhōngwǔ yīqǐ chīfàn.",
+      "sentenceTranslation": "We have lunch together at noon.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:45.428Z"
+    },
+    "上午": {
+      "translations": [
+        "morning"
+      ],
+      "note": "",
+      "pinyin": "shàngwǔ",
+      "tone": 4,
+      "sentence": "我们上午去公园。",
+      "sentencePinyin": "Wǒmen shàngwǔ qù gōngyuán.",
+      "sentenceTranslation": "We go to the park in the morning.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:47.677Z"
+    },
+    "水果": {
+      "translations": [
+        "fruit"
+      ],
+      "note": "",
+      "pinyin": "shuǐguǒ",
+      "tone": 3,
+      "sentence": "我喜欢吃水果。",
+      "sentencePinyin": "Wǒ xǐhuān chī shuǐguǒ.",
+      "sentenceTranslation": "I like to eat fruit.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:56.135Z"
+    },
+    "杯子": {
+      "translations": [
+        "cup",
+        "mug",
+        "tumbler"
+      ],
+      "note": "",
+      "pinyin": "bēizi",
+      "tone": 4,
+      "sentence": "我用杯子喝水。",
+      "sentencePinyin": "Wǒ yòng bēizi hē shuǐ.",
+      "sentenceTranslation": "I drink water with a cup.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:58.384Z"
+    },
+    "下雨": {
+      "translations": [
+        "rain"
+      ],
+      "note": "",
+      "pinyin": "xià yǔ",
+      "tone": 4,
+      "sentence": "今天会下雨，所以带伞。",
+      "sentencePinyin": "Jīntiān huì xiàyǔ, suǒyǐ dài sǎn.",
+      "sentenceTranslation": "It will rain today, so bring an umbrella.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:13:59.817Z"
+    },
+    "米饭": {
+      "translations": [
+        "rice"
+      ],
+      "note": "",
+      "pinyin": "mǐfàn",
+      "tone": 3,
+      "sentence": "我每天都吃米饭。",
+      "sentencePinyin": "Wǒ měitiān dōu chī mǐfàn.",
+      "sentenceTranslation": "I eat rice every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:14:01.664Z"
+    },
+    "北京": {
+      "translations": [
+        "northern capital"
+      ],
+      "note": "",
+      "pinyin": "Běijīng",
+      "tone": 4,
+      "sentence": "我打算明年去北京旅游。",
+      "sentencePinyin": "Wǒ dǎsuàn míngnián qù Běijīng lǚyóu.",
+      "sentenceTranslation": "I plan to travel to Beijing next year.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:14:04.013Z"
+    },
+    "汉语": {
+      "translations": [
+        "Chinese language",
+        "Mandarin"
+      ],
+      "note": "Chinese language or Mandarin",
+      "pinyin": "Hànyǔ",
+      "tone": 4,
+      "sentence": "我在学习汉语。",
+      "sentencePinyin": "Wǒ zài xuéxí Hànyǔ.",
+      "sentenceTranslation": "I am learning Chinese.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:14:05.548Z"
+    },
+    "不客气": {
+      "translations": [
+        "no need to thank",
+        "you're welcome"
+      ],
+      "note": "used as a polite response to thanks",
+      "pinyin": "bù kè qì",
+      "tone": 4,
+      "sentence": "谢谢你的帮助，不客气！",
+      "sentencePinyin": "Xièxiè nǐ de bāngzhù, bù kè qì!",
+      "sentenceTranslation": "Thank you for your help, you're welcome!",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T10:14:13.314Z"
+    },
+    "就": {
+      "translations": [
+        "then",
+        "just",
+        "at once",
+        "to be about to",
+        "to",
+        "even"
+      ],
+      "note": "used as a conjunction, adverb, or preposition depending on context",
+      "pinyin": "jiù",
+      "tone": 4,
+      "sentence": "我就要走了。",
+      "sentencePinyin": "Wǒ jiù yào zǒu le.",
+      "sentenceTranslation": "I am about to leave.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:04.062Z"
+    },
+    "要": {
+      "translations": [
+        "want",
+        "need",
+        "shall",
+        "should",
+        "must",
+        "important",
+        "to want"
+      ],
+      "note": "used to express necessity, intention, or importance",
+      "pinyin": "yào",
+      "tone": 4,
+      "sentence": "我想要一杯水。",
+      "sentencePinyin": "Wǒ xiǎng yào yī bēi shuǐ.",
+      "sentenceTranslation": "I want a glass of water.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:07.134Z"
+    },
+    "知道": {
+      "translations": [
+        "know",
+        "be aware of"
+      ],
+      "note": "",
+      "pinyin": "zhīdào",
+      "tone": 4,
+      "sentence": "我知道这个消息。",
+      "sentencePinyin": "Wǒ zhīdào zhège xiāoxi.",
+      "sentenceTranslation": "I know this news.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:09.898Z"
+    },
+    "吧": {
+      "translations": [
+        "particle",
+        "modal particle"
+      ],
+      "note": "used to indicate suggestion, assumption, or softening tone",
+      "pinyin": "ba",
+      "tone": "-",
+      "sentence": "我们走吧。",
+      "sentencePinyin": "Wǒmen zǒu ba.",
+      "sentenceTranslation": "Let's go.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:11.234Z"
+    },
+    "到": {
+      "translations": [
+        "to arrive",
+        "to reach",
+        "until",
+        "then",
+        "so"
+      ],
+      "note": "used to indicate arrival or reaching a place or point in time",
+      "pinyin": "dào",
+      "tone": 4,
+      "sentence": "我到了学校。",
+      "sentencePinyin": "Wǒ dào le xuéxiào.",
+      "sentenceTranslation": "I arrived at the school.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:12.766Z"
+    },
+    "对": {
+      "translations": [
+        "correct",
+        "to",
+        "towards",
+        "pair",
+        "right"
+      ],
+      "note": "used as a preposition, adjective, or noun depending on context",
+      "pinyin": "duì",
+      "tone": 4,
+      "sentence": "这是正确的答案。",
+      "sentencePinyin": "Zhè shì zhèngquè de dá'àn.",
+      "sentenceTranslation": "This is the correct answer.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:14.810Z"
+    },
+    "也": {
+      "translations": [
+        "also",
+        "too",
+        "as well"
+      ],
+      "note": "indicates addition or agreement",
+      "pinyin": "yě",
+      "tone": 3,
+      "sentence": "我也喜欢这部电影。",
+      "sentencePinyin": "Wǒ yě xǐhuān zhè bù diànyǐng.",
+      "sentenceTranslation": "I also like this movie.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:18.282Z"
+    },
+    "还": {
+      "translations": [
+        "still",
+        "yet",
+        "return",
+        "also",
+        "even"
+      ],
+      "note": "used to indicate continuation, addition, or a return to a previous state",
+      "pinyin": "hái",
+      "tone": 2,
+      "sentence": "我还在工作。",
+      "sentencePinyin": "Wǒ hái zài gōngzuò.",
+      "sentenceTranslation": "I am still working.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:22.174Z"
+    },
+    "让": {
+      "translations": [
+        "to allow",
+        "to let",
+        "to make",
+        "to cause",
+        "to yield",
+        "to order",
+        "to request"
+      ],
+      "note": "used to indicate permission, causation, or request",
+      "pinyin": "ràng",
+      "tone": 4,
+      "sentence": "请让他进来。",
+      "sentencePinyin": "Qǐng ràng tā jìn lái.",
+      "sentenceTranslation": "Please let him in.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:25.450Z"
+    },
+    "给": {
+      "translations": [
+        "give",
+        "send",
+        "offer",
+        "provide"
+      ],
+      "note": "used to indicate giving or providing something",
+      "pinyin": "gěi",
+      "tone": 3,
+      "sentence": "我给你一本书。",
+      "sentencePinyin": "Wǒ gěi nǐ yī běn shū.",
+      "sentenceTranslation": "I give you a book.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:28.724Z"
+    },
+    "过": {
+      "translations": [
+        "to pass",
+        "to go over",
+        "to cross",
+        "to spend (time)",
+        "to celebrate",
+        "to mistake"
+      ],
+      "note": "depends on context",
+      "pinyin": "guò",
+      "tone": 4,
+      "sentence": "我昨天去了商店。",
+      "sentencePinyin": "Wǒ zuótiān qùle shāngdiàn.",
+      "sentenceTranslation": "I went to the store yesterday.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:32.377Z"
+    },
+    "得": {
+      "translations": [
+        "to get",
+        "to obtain",
+        "to have",
+        "must",
+        "should",
+        "can",
+        "may",
+        "used to indicate possibility or necessity"
+      ],
+      "note": "multiple meanings depending on context",
+      "pinyin": "dé",
+      "tone": 2,
+      "sentence": "我得去学校。",
+      "sentencePinyin": "Wǒ děi qù xuéxiào.",
+      "sentenceTranslation": "I have to go to school.",
+      "sentenceDefinition": "Expresses necessity or obligation",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:35.790Z"
+    },
+    "真": {
+      "translations": [
+        "true",
+        "real",
+        "genuine",
+        "authentic"
+      ],
+      "note": "used to mean genuine or authentic",
+      "pinyin": "zhēn",
+      "tone": 1,
+      "sentence": "这是真的。",
+      "sentencePinyin": "Zhè shì zhēn de.",
+      "sentenceTranslation": "This is real.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:37.841Z"
+    },
+    "着": {
+      "translations": [
+        "to wear",
+        "to hold",
+        "to be in the process of",
+        "to touch",
+        "to arrive at",
+        "to be (a state or condition)"
+      ],
+      "note": "used as a particle indicating aspect or result",
+      "pinyin": "zhe",
+      "tone": 4,
+      "sentence": "他穿着一件红色的衣服。",
+      "sentencePinyin": "Tā chuānzhe yī jiàn hóngsè de yīfú.",
+      "sentenceTranslation": "He is wearing a red shirt.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:42.153Z"
+    },
+    "可以": {
+      "translations": [
+        "can",
+        "may",
+        "be able to"
+      ],
+      "note": "indicates possibility or permission",
+      "pinyin": "kě yǐ",
+      "tone": "3-3",
+      "sentence": "你可以去吗？",
+      "sentencePinyin": "Nǐ kě yǐ qù ma?",
+      "sentenceTranslation": "Can you go?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:43.486Z"
+    },
+    "别": {
+      "translations": [
+        "don't",
+        "other",
+        "another",
+        "to part ways"
+      ],
+      "note": "used to indicate a command, prohibition, or separation",
+      "pinyin": "bié",
+      "tone": 2,
+      "sentence": "请你别走。",
+      "sentencePinyin": "Qǐng nǐ bié zǒu.",
+      "sentenceTranslation": "Please don't go.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:47.070Z"
+    },
+    "走": {
+      "translations": [
+        "walk",
+        "go",
+        "leave",
+        "run"
+      ],
+      "note": "move or go somewhere",
+      "pinyin": "zǒu",
+      "tone": 3,
+      "sentence": "我每天早上走路去学校。",
+      "sentencePinyin": "Wǒ měitiān zǎoshang zǒulù qù xuéxiào.",
+      "sentenceTranslation": "I walk to school every morning.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:49.733Z"
+    },
+    "告诉": {
+      "translations": [
+        "tell",
+        "inform",
+        "notify"
+      ],
+      "note": "used to mean 'to tell' or 'to inform' someone",
+      "pinyin": "gàosu",
+      "tone": 4,
+      "sentence": "我会告诉你这个消息。",
+      "sentencePinyin": "Wǒ huì gàosu nǐ zhège xiāoxi.",
+      "sentenceTranslation": "I will tell you this news.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:52.196Z"
+    },
+    "因为": {
+      "translations": [
+        "because",
+        "due to",
+        "since"
+      ],
+      "note": "used to indicate reason or cause",
+      "pinyin": "yīnwèi",
+      "tone": 4,
+      "sentence": "我因为生病所以没去上学。",
+      "sentencePinyin": "Wǒ yīnwèi shēngbìng suǒyǐ méi qù shàngxué.",
+      "sentenceTranslation": "I didn't go to school because I was sick.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:56.183Z"
+    },
+    "再": {
+      "translations": [
+        "again",
+        "once more",
+        "then",
+        "later"
+      ],
+      "note": "indicates repetition or a subsequent action",
+      "pinyin": "zài",
+      "tone": 4,
+      "sentence": "我想再试一次。",
+      "sentencePinyin": "Wǒ xiǎng zài shì yīcì.",
+      "sentenceTranslation": "I want to try again.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:43:59.458Z"
+    },
+    "快": {
+      "translations": [
+        "fast",
+        "quick",
+        "rapid"
+      ],
+      "note": "",
+      "pinyin": "kuài",
+      "tone": 4,
+      "sentence": "他跑得很快。",
+      "sentencePinyin": "Tā pǎo de hěn kuài.",
+      "sentenceTranslation": "He runs very fast.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:02.227Z"
+    },
+    "但是": {
+      "translations": [
+        "but",
+        "however",
+        "yet"
+      ],
+      "note": "conjunction indicating contrast",
+      "pinyin": "dànshì",
+      "tone": 4,
+      "sentence": "我想去玩，但是下雨了。",
+      "sentencePinyin": "Wǒ xiǎng qù wán, dànshì xiàyǔ le.",
+      "sentenceTranslation": "I want to go out to play, but it is raining.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:04.577Z"
+    },
+    "已经": {
+      "translations": [
+        "already"
+      ],
+      "note": "",
+      "pinyin": "yǐjīng",
+      "tone": 3,
+      "sentence": "我已经吃过饭了。",
+      "sentencePinyin": "Wǒ yǐjīng chī guò fàn le.",
+      "sentenceTranslation": "I have already eaten.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:08.087Z"
+    },
+    "为什么": {
+      "translations": [
+        "why"
+      ],
+      "note": "used to ask for reasons or explanations",
+      "pinyin": "wèi shén me",
+      "tone": "-1-2-3-4",
+      "sentence": "你为什么迟到？",
+      "sentencePinyin": "Nǐ wèi shén me chídào?",
+      "sentenceTranslation": "Why are you late?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:11.258Z"
+    },
+    "觉得": {
+      "translations": [
+        "to think",
+        "to feel",
+        "to believe"
+      ],
+      "note": "expresses personal opinion or feeling",
+      "pinyin": "juéde",
+      "tone": 2,
+      "sentence": "我觉得这部电影很好看。",
+      "sentencePinyin": "Wǒ juéde zhè bù diànyǐng hěn hǎokàn.",
+      "sentenceTranslation": "I think this movie is very good.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:13.513Z"
+    },
+    "它": {
+      "translations": [
+        "it"
+      ],
+      "note": "third-person singular pronoun",
+      "pinyin": "tā",
+      "tone": 1,
+      "sentence": "它在桌子上。",
+      "sentencePinyin": "Tā zài zhuōzi shàng.",
+      "sentenceTranslation": "It is on the table.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:16.686Z"
+    },
+    "从": {
+      "translations": [
+        "from",
+        "since",
+        "through",
+        "out of",
+        "following",
+        "along"
+      ],
+      "note": "indicates starting point, cause, or manner",
+      "pinyin": "cóng",
+      "tone": 2,
+      "sentence": "我从学校回来。",
+      "sentencePinyin": "Wǒ cóng xuéxiào huílái.",
+      "sentenceTranslation": "I come back from school.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:20.272Z"
+    },
+    "找": {
+      "translations": [
+        "to look for",
+        "to seek",
+        "to find"
+      ],
+      "note": "used for seeking or searching",
+      "pinyin": "zhǎo",
+      "tone": 3,
+      "sentence": "我在找我的钥匙。",
+      "sentencePinyin": "Wǒ zài zhǎo wǒ de yàoshi.",
+      "sentenceTranslation": "I am looking for my keys.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:22.320Z"
+    },
+    "最": {
+      "translations": [
+        "most",
+        "the -est"
+      ],
+      "note": "superlative marker",
+      "pinyin": "zuì",
+      "tone": 4,
+      "sentence": "这是我见过的最漂亮的花。",
+      "sentencePinyin": "Zhè shì wǒ jiànguò de zuì piàoliang de huā.",
+      "sentenceTranslation": "This is the most beautiful flower I have ever seen.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:26.291Z"
+    },
+    "可能": {
+      "translations": [
+        "possible",
+        "might",
+        "probably"
+      ],
+      "note": "indicates possibility or uncertainty",
+      "pinyin": "kěnéng",
+      "tone": 3,
+      "sentence": "明天可能会下雨。",
+      "sentencePinyin": "Míngtiān kěnéng huì xiàyǔ.",
+      "sentenceTranslation": "It might rain tomorrow.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:29.896Z"
+    },
+    "次": {
+      "translations": [
+        "second",
+        "time",
+        "sequence",
+        "next",
+        "sub-"
+      ],
+      "note": "indicates order, sequence, or a measure of frequency",
+      "pinyin": "cì",
+      "tone": 4,
+      "sentence": "这是我第二次来中国。",
+      "sentencePinyin": "Zhè shì wǒ dì èr cì lái Zhōngguó.",
+      "sentenceTranslation": "This is my second time coming to China.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:33.893Z"
+    },
+    "出": {
+      "translations": [
+        "to go out",
+        "to come out",
+        "to appear",
+        "to produce",
+        "to leave",
+        "to exit"
+      ],
+      "note": "used for exiting, appearing, or producing",
+      "pinyin": "chū",
+      "tone": 1,
+      "sentence": "他每天早上七点出门上班。",
+      "sentencePinyin": "Tā měitiān zǎoshang qī diǎn chūmén shàngbān.",
+      "sentenceTranslation": "He leaves for work every morning at seven.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:37.676Z"
+    },
+    "孩子": {
+      "translations": [
+        "child",
+        "children"
+      ],
+      "note": "",
+      "pinyin": "hái zi",
+      "tone": 3,
+      "sentence": "我的孩子很喜欢画画。",
+      "sentencePinyin": "Wǒ de hái zi hěn xǐ huān huà huà.",
+      "sentenceTranslation": "My child really likes to draw.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:39.627Z"
+    },
+    "所以": {
+      "translations": [
+        "so",
+        "therefore",
+        "thus"
+      ],
+      "note": "used to indicate cause or result",
+      "pinyin": "suǒ yǐ",
+      "tone": "3",
+      "sentence": "我很累，所以我想休息。",
+      "sentencePinyin": "Wǒ hěn lèi, suǒ yǐ wǒ xiǎng xiūxi.",
+      "sentenceTranslation": "I am very tired, so I want to rest.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:42.082Z"
+    },
+    "两": {
+      "translations": [
+        "two",
+        "a couple of"
+      ],
+      "note": "used as a quantifier for two items or a small number",
+      "pinyin": "liǎng",
+      "tone": 3,
+      "sentence": "我有两本书。",
+      "sentencePinyin": "Wǒ yǒu liǎng běn shū.",
+      "sentenceTranslation": "I have two books.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:43.413Z"
+    },
+    "错": {
+      "translations": [
+        "mistake",
+        "error",
+        "wrong"
+      ],
+      "note": "used to indicate mistake or wrongness",
+      "pinyin": "cuò",
+      "tone": 4,
+      "sentence": "他犯了一个错误。",
+      "sentencePinyin": "Tā fàn le yí gè cuòwù.",
+      "sentenceTranslation": "He made a mistake.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:46.794Z"
+    },
+    "等": {
+      "translations": [
+        "to wait",
+        "to wait for",
+        "to rank",
+        "equal",
+        "even",
+        "such as"
+      ],
+      "note": "used as a conjunction, verb, or adjective depending on context",
+      "pinyin": "děng",
+      "tone": 3,
+      "sentence": "请你等我一下。",
+      "sentencePinyin": "Qǐng nǐ děng wǒ yíxià.",
+      "sentenceTranslation": "Please wait for me a moment.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:50.580Z"
+    },
+    "问题": {
+      "translations": [
+        "question",
+        "problem"
+      ],
+      "note": "used to mean a question or issue to be solved",
+      "pinyin": "wèntí",
+      "tone": 2,
+      "sentence": "你有什么问题吗？",
+      "sentencePinyin": "Nǐ yǒu shénme wèntí ma?",
+      "sentenceTranslation": "Do you have any questions?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:53.742Z"
+    },
+    "一起": {
+      "translations": [
+        "together"
+      ],
+      "note": "",
+      "pinyin": "yīqǐ",
+      "tone": 4,
+      "sentence": "我们一起去看电影。",
+      "sentencePinyin": "Wǒmen yīqǐ qù kàn diànyǐng.",
+      "sentenceTranslation": "We are going to watch a movie together.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:56.589Z"
+    },
+    "开始": {
+      "translations": [
+        "start",
+        "begin"
+      ],
+      "note": "",
+      "pinyin": "kāi shǐ",
+      "tone": 3,
+      "sentence": "我们什么时候开始？",
+      "sentencePinyin": "Wǒmen shénme shíhòu kāishǐ?",
+      "sentenceTranslation": "When do we start?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:44:59.784Z"
+    },
+    "时间": {
+      "translations": [
+        "time"
+      ],
+      "note": "",
+      "pinyin": "shíjiān",
+      "tone": 2,
+      "sentence": "我们需要更多的时间来完成这个项目。",
+      "sentencePinyin": "Wǒmen xūyào gèng duō de shíjiān lái wánchéng zhège xiàngmù.",
+      "sentenceTranslation": "We need more time to complete this project.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:03.578Z"
+    },
+    "事情": {
+      "translations": [
+        "affair",
+        "matter",
+        "thing",
+        "business",
+        "event"
+      ],
+      "note": "refers to a matter or event, not just a physical thing",
+      "pinyin": "shìqíng",
+      "tone": 4,
+      "sentence": "你有什么事情需要帮忙吗？",
+      "sentencePinyin": "Nǐ yǒu shénme shìqíng xūyào bāngmáng ma?",
+      "sentenceTranslation": "Is there something you need help with?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:08.289Z"
+    },
+    "一下": {
+      "translations": [
+        "a little",
+        "once",
+        "a moment"
+      ],
+      "note": "used to indicate a brief action or a small amount",
+      "pinyin": "yíxià",
+      "tone": 4,
+      "sentence": "请等一下，我马上回来。",
+      "sentencePinyin": "Qǐng děng yíxià, wǒ mǎshàng huílái.",
+      "sentenceTranslation": "Please wait a moment, I will be back soon.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:10.630Z"
+    },
+    "非常": {
+      "translations": [
+        "very",
+        "extremely",
+        "exceptional"
+      ],
+      "note": "used for emphasis or to indicate something is extraordinary",
+      "pinyin": "fēi cháng",
+      "tone": 2,
+      "sentence": "这件事非常重要。",
+      "sentencePinyin": "Zhè jiàn shì fēi cháng zhòng yào.",
+      "sentenceTranslation": "This matter is very important.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:14.315Z"
+    },
+    "希望": {
+      "translations": [
+        "hope"
+      ],
+      "note": "",
+      "pinyin": "xīwàng",
+      "tone": 4,
+      "sentence": "我对未来充满希望。",
+      "sentencePinyin": "Wǒ duì wèilái chōngmǎn xīwàng.",
+      "sentenceTranslation": "I am full of hope for the future.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:17.708Z"
+    },
+    "准备": {
+      "translations": [
+        "prepare",
+        "get ready"
+      ],
+      "note": "used to mean getting ready or making preparations",
+      "pinyin": "zhǔn bèi",
+      "tone": 3,
+      "sentence": "我正在准备考试。",
+      "sentencePinyin": "Wǒ zhèngzài zhǔnbèi kǎoshì.",
+      "sentenceTranslation": "I am preparing for the exam.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:20.473Z"
+    },
+    "比": {
+      "translations": [
+        "compare",
+        "than",
+        "contrast"
+      ],
+      "note": "used for comparison or to indicate 'more than' or 'rather than'",
+      "pinyin": "bǐ",
+      "tone": 3,
+      "sentence": "我比他高。",
+      "sentencePinyin": "Wǒ bǐ tā gāo.",
+      "sentenceTranslation": "I am taller than him.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:24.920Z"
+    },
+    "问": {
+      "translations": [
+        "ask",
+        "question"
+      ],
+      "note": "",
+      "pinyin": "wèn",
+      "tone": 4,
+      "sentence": "我想问你一个问题。",
+      "sentencePinyin": "Wǒ xiǎng wèn nǐ yī gè wèntí.",
+      "sentenceTranslation": "I want to ask you a question.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:27.211Z"
+    },
+    "件": {
+      "translations": [
+        "item",
+        "measure word",
+        "piece"
+      ],
+      "note": "measure word for items or pieces",
+      "pinyin": "jiàn",
+      "tone": 4,
+      "sentence": "我买了一件衣服。",
+      "sentencePinyin": "Wǒ mǎile yí jiàn yīfú.",
+      "sentenceTranslation": "I bought a piece of clothing.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:29.360Z"
+    },
+    "意思": {
+      "translations": [
+        "meaning",
+        "idea",
+        "intention"
+      ],
+      "note": "context-dependent; often means 'meaning' or 'idea'",
+      "pinyin": "yìsi",
+      "tone": "4",
+      "sentence": "你的意思是什么？",
+      "sentencePinyin": "Nǐ de yìsi shì shénme?",
+      "sentenceTranslation": "What do you mean?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:31.408Z"
+    },
+    "第一": {
+      "translations": [
+        "first"
+      ],
+      "note": "",
+      "pinyin": "dì yī",
+      "tone": 4,
+      "sentence": "他是班上的第一名。",
+      "sentencePinyin": "Tā shì bān shàng de dì yī míng.",
+      "sentenceTranslation": "He is the top student in the class.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:35.402Z"
+    },
+    "进": {
+      "translations": [
+        "enter",
+        "advance",
+        "move in",
+        "go in"
+      ],
+      "note": "used to indicate entering or moving into a place",
+      "pinyin": "jìn",
+      "tone": 4,
+      "sentence": "请进。",
+      "sentencePinyin": "Qǐng jìn.",
+      "sentenceTranslation": "Please come in.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:37.451Z"
+    },
+    "大家": {
+      "translations": [
+        "everyone",
+        "all",
+        "the public"
+      ],
+      "note": "used to refer to a group of people including the speaker",
+      "pinyin": "dàjiā",
+      "tone": 4,
+      "sentence": "大家都喜欢这部电影。",
+      "sentencePinyin": "Dàjiā dōu xǐhuān zhè bù diànyǐng.",
+      "sentenceTranslation": "Everyone likes this movie.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:42.944Z"
+    },
+    "新": {
+      "translations": [
+        "new"
+      ],
+      "note": "",
+      "pinyin": "xīn",
+      "tone": 1,
+      "sentence": "这是一件新衣服。",
+      "sentencePinyin": "Zhè shì yī jiàn xīn yīfú.",
+      "sentenceTranslation": "This is a new piece of clothing.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:45.041Z"
+    },
+    "您": {
+      "translations": [
+        "you (polite)"
+      ],
+      "note": "third-person singular feminine pronoun",
+      "pinyin": "nín",
+      "tone": 3,
+      "sentence": "您好，您需要帮助吗？",
+      "sentencePinyin": "Nín hǎo, nín xūyào bāngzhù ma?",
+      "sentenceTranslation": "Hello, do you need help?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:48.064Z"
+    },
+    "穿": {
+      "translations": [
+        "to wear",
+        "to put on",
+        "to wear through",
+        "to pierce",
+        "to pass through"
+      ],
+      "note": "context-dependent meaning",
+      "pinyin": "chuān",
+      "tone": 1,
+      "sentence": "我喜欢穿红色的衣服。",
+      "sentencePinyin": "Wǒ xǐhuān chuān hóngsè de yīfú.",
+      "sentenceTranslation": "I like to wear red clothes.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:50.518Z"
+    },
+    "送": {
+      "translations": [
+        "send",
+        "deliver",
+        "give",
+        "offer"
+      ],
+      "note": "used for giving or sending something to someone",
+      "pinyin": "sòng",
+      "tone": 4,
+      "sentence": "我想送你一本书。",
+      "sentencePinyin": "Wǒ xiǎng sòng nǐ yī běn shū.",
+      "sentenceTranslation": "I want to give you a book.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:54.206Z"
+    },
+    "玩": {
+      "translations": [
+        "play",
+        "have fun",
+        "amuse oneself"
+      ],
+      "note": "used for playing or having fun",
+      "pinyin": "wán",
+      "tone": 2,
+      "sentence": "孩子们在公园玩。",
+      "sentencePinyin": "Háizimen zài gōngyuán wán.",
+      "sentenceTranslation": "The children are playing in the park.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:45:56.762Z"
+    },
+    "长": {
+      "translations": [
+        "long",
+        "length",
+        "grow"
+      ],
+      "note": "used to describe length or to indicate growth",
+      "pinyin": "cháng",
+      "tone": 2,
+      "sentence": "这条河很长。",
+      "sentencePinyin": "Zhè tiáo hé hěn cháng.",
+      "sentenceTranslation": "This river is very long.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:01.207Z"
+    },
+    "小时": {
+      "translations": [
+        "hour"
+      ],
+      "note": "",
+      "pinyin": "xiǎoshí",
+      "tone": 3,
+      "sentence": "我每天工作八个小时。",
+      "sentencePinyin": "Wǒ měitiān gōngzuò bā gè xiǎoshí.",
+      "sentenceTranslation": "I work eight hours every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:02.535Z"
+    },
+    "完": {
+      "translations": [
+        "complete",
+        "finish",
+        "end"
+      ],
+      "note": "used to indicate completion or ending",
+      "pinyin": "wán",
+      "tone": 2,
+      "sentence": "我已经完成了作业。",
+      "sentencePinyin": "Wǒ yǐjīng wánchéng le zuòyè.",
+      "sentenceTranslation": "I have already finished the homework.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:06.734Z"
+    },
+    "每": {
+      "translations": [
+        "every",
+        "each"
+      ],
+      "note": "indicates each in a repeated or regular manner",
+      "pinyin": "měi",
+      "tone": 4,
+      "sentence": "我每天都学习中文。",
+      "sentencePinyin": "Wǒ měitiān dōu xuéxí Zhōngwén.",
+      "sentenceTranslation": "I study Chinese every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:12.159Z"
+    },
+    "公司": {
+      "translations": [
+        "company",
+        "corporation",
+        "firm"
+      ],
+      "note": "organization that conducts business",
+      "pinyin": "gōngsī",
+      "tone": 1,
+      "sentence": "我在这家公司工作。",
+      "sentencePinyin": "Wǒ zài zhè jiā gōngsī gōngzuò.",
+      "sentenceTranslation": "I work at this company.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:16.665Z"
+    },
+    "帮助": {
+      "translations": [
+        "help",
+        "assist"
+      ],
+      "note": "",
+      "pinyin": "bāngzhù",
+      "tone": 4,
+      "sentence": "我可以帮助你完成这个任务。",
+      "sentencePinyin": "Wǒ kěyǐ bāngzhù nǐ wánchéng zhège rènwù.",
+      "sentenceTranslation": "I can help you complete this task.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:20.116Z"
+    },
+    "晚上": {
+      "translations": [
+        "evening",
+        "night"
+      ],
+      "note": "",
+      "pinyin": "wǎn shàng",
+      "tone": 4,
+      "sentence": "我们晚上一起吃饭吧。",
+      "sentencePinyin": "Wǒmen wǎn shàng yīqǐ chīfàn ba.",
+      "sentenceTranslation": "Let's have dinner together in the evening.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:26.871Z"
+    },
+    "说话": {
+      "translations": [
+        "speak",
+        "talk"
+      ],
+      "note": "",
+      "pinyin": "shuōhuà",
+      "tone": 4,
+      "sentence": "他喜欢和朋友说话。",
+      "sentencePinyin": "Tā xǐhuān hé péngyǒu shuōhuà.",
+      "sentenceTranslation": "He likes to talk with friends.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:32.402Z"
+    },
+    "门": {
+      "translations": [
+        "door",
+        "gate"
+      ],
+      "note": "",
+      "pinyin": "mén",
+      "tone": 2,
+      "sentence": "我推开门进去。",
+      "sentencePinyin": "Wǒ tuī kāi mén jìnqù.",
+      "sentenceTranslation": "I pushed open the door and went in.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:35.079Z"
+    },
+    "女": {
+      "translations": [
+        "woman",
+        "female"
+      ],
+      "note": "third-person singular feminine pronoun",
+      "pinyin": "nǚ",
+      "tone": 3,
+      "sentence": "她是一个善良的女孩子。",
+      "sentencePinyin": "Tā shì yīgè shànliáng de nǚ háizi.",
+      "sentenceTranslation": "She is a kind girl.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:40.367Z"
+    },
+    "忙": {
+      "translations": [
+        "busy"
+      ],
+      "note": "",
+      "pinyin": "máng",
+      "tone": 2,
+      "sentence": "我今天很忙，没有时间休息。",
+      "sentencePinyin": "Wǒ jīntiān hěn máng, méiyǒu shíjiān xiūxí.",
+      "sentenceTranslation": "I'm very busy today and don't have time to rest.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:45.996Z"
+    },
+    "卖": {
+      "translations": [
+        "sell"
+      ],
+      "note": "",
+      "pinyin": "mài",
+      "tone": 4,
+      "sentence": "我想在市场上卖水果。",
+      "sentencePinyin": "Wǒ xiǎng zài shìchǎng shàng mài shuǐguǒ.",
+      "sentenceTranslation": "I want to sell fruit at the market.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:48.867Z"
+    },
+    "高": {
+      "translations": [
+        "tall",
+        "high",
+        "great",
+        "senior"
+      ],
+      "note": "used to describe height, level, or degree",
+      "pinyin": "gāo",
+      "tone": 1,
+      "sentence": "这座山很高。",
+      "sentencePinyin": "Zhè zuò shān hěn gāo.",
+      "sentenceTranslation": "This mountain is very tall.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:50.809Z"
+    },
+    "房间": {
+      "translations": [
+        "room",
+        "chamber"
+      ],
+      "note": "",
+      "pinyin": "fángjiān",
+      "tone": 2,
+      "sentence": "我的房间很干净。",
+      "sentencePinyin": "Wǒ de fángjiān hěn gānjìng.",
+      "sentenceTranslation": "My room is very clean.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:54.571Z"
+    },
+    "路": {
+      "translations": [
+        "road",
+        "path",
+        "way"
+      ],
+      "note": "",
+      "pinyin": "lù",
+      "tone": 4,
+      "sentence": "我每天都走这条路去学校。",
+      "sentencePinyin": "Wǒ měitiān dōu zǒu zhè tiáo lù qù xuéxiào.",
+      "sentenceTranslation": "I walk this road to school every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:56.929Z"
+    },
+    "懂": {
+      "translations": [
+        "understand",
+        "know"
+      ],
+      "note": "understand or know (comprehend or be familiar with)",
+      "pinyin": "dǒng",
+      "tone": 3,
+      "sentence": "我懂你的意思。",
+      "sentencePinyin": "Wǒ dǒng nǐ de yìsi.",
+      "sentenceTranslation": "I understand your meaning.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:46:59.900Z"
+    },
+    "正在": {
+      "translations": [
+        "in the process of",
+        "currently",
+        "be in the middle of"
+      ],
+      "note": "indicates an ongoing action or state",
+      "pinyin": "zhèngzài",
+      "tone": 4,
+      "sentence": "我正在吃饭。",
+      "sentencePinyin": "Wǒ zhèngzài chīfàn.",
+      "sentenceTranslation": "I am eating.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:03.790Z"
+    },
+    "笑": {
+      "translations": [
+        "smile",
+        "laugh"
+      ],
+      "note": "",
+      "pinyin": "xiào",
+      "tone": 4,
+      "sentence": "她喜欢笑。",
+      "sentencePinyin": "Tā xǐhuān xiào.",
+      "sentenceTranslation": "She likes to smile.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:06.348Z"
+    },
+    "远": {
+      "translations": [
+        "far",
+        "distant",
+        "remote"
+      ],
+      "note": "indicates distance or far away",
+      "pinyin": "yuǎn",
+      "tone": 3,
+      "sentence": "那座山很远。",
+      "sentencePinyin": "Nà zuò shān hěn yuǎn.",
+      "sentenceTranslation": "That mountain is very far.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:09.319Z"
+    },
+    "妻子": {
+      "translations": [
+        "wife",
+        "married woman"
+      ],
+      "note": "spouse",
+      "pinyin": "qīzi",
+      "tone": 4,
+      "sentence": "她是我的妻子。",
+      "sentencePinyin": "Tā shì wǒ de qīzi.",
+      "sentenceTranslation": "She is my wife.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:12.390Z"
+    },
+    "丈夫": {
+      "translations": [
+        "husband"
+      ],
+      "note": "spouse or husband in marriage",
+      "pinyin": "zhàngfū",
+      "tone": 4,
+      "sentence": "她的丈夫很体贴。",
+      "sentencePinyin": "Tā de zhàngfū hěn tǐtiē.",
+      "sentenceTranslation": "Her husband is very considerate.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:15.493Z"
+    },
+    "离": {
+      "translations": [
+        "leave",
+        "depart",
+        "away",
+        "from",
+        "separate",
+        "detach",
+        "diverge"
+      ],
+      "note": "indicates leaving or separation",
+      "pinyin": "lí",
+      "tone": 2,
+      "sentence": "他要离开家去上班。",
+      "sentencePinyin": "Tā yào líkāi jiā qù shàngbān.",
+      "sentenceTranslation": "He is going to leave home to go to work.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:18.872Z"
+    },
+    "往": {
+      "translations": [
+        "toward",
+        "to",
+        "going",
+        "to go",
+        "towards"
+      ],
+      "note": "indicates direction or movement",
+      "pinyin": "wǎng",
+      "tone": 3,
+      "sentence": "我每天都往学校走。",
+      "sentencePinyin": "Wǒ měitiān dōu wǎng xuéxiào zǒu.",
+      "sentenceTranslation": "I go to school every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:21.123Z"
+    },
+    "男": {
+      "translations": [
+        "male",
+        "man",
+        "boy"
+      ],
+      "note": "",
+      "pinyin": "nán",
+      "tone": 2,
+      "sentence": "他是一个男孩。",
+      "sentencePinyin": "Tā shì yī gè nán hái.",
+      "sentenceTranslation": "He is a boy.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:23.582Z"
+    },
+    "眼睛": {
+      "translations": [
+        "eye"
+      ],
+      "note": "",
+      "pinyin": "yǎn jīng",
+      "tone": 3,
+      "sentence": "他的眼睛很大。",
+      "sentencePinyin": "Tā de yǎn jīng hěn dà.",
+      "sentenceTranslation": "His eyes are big.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:26.450Z"
+    },
+    "快乐": {
+      "translations": [
+        "happy",
+        "joyful",
+        "cheerful"
+      ],
+      "note": "expresses happiness or joy",
+      "pinyin": "kuàilè",
+      "tone": 4,
+      "sentence": "我感到非常快乐。",
+      "sentencePinyin": "Wǒ gǎndào fēicháng kuàilè.",
+      "sentenceTranslation": "I feel very happy.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:29.829Z"
+    },
+    "虽然": {
+      "translations": [
+        "although",
+        "though",
+        "even though"
+      ],
+      "note": "",
+      "pinyin": "suīrán",
+      "tone": 2,
+      "sentence": "虽然天气不好，我们还是去散步了。",
+      "sentencePinyin": "Suīrán tiānqì bù hǎo, wǒmen hái shì qù sànbù le.",
+      "sentenceTranslation": "Although the weather was bad, we still went for a walk.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:32.799Z"
+    },
+    "早上": {
+      "translations": [
+        "morning",
+        "early morning"
+      ],
+      "note": "",
+      "pinyin": "zǎo shàng",
+      "tone": 3,
+      "sentence": "我每天早上六点起床。",
+      "sentencePinyin": "Wǒ měitiān zǎoshàng liù diǎn qǐchuáng.",
+      "sentenceTranslation": "I get up at 6 every morning.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:36.144Z"
+    },
+    "药": {
+      "translations": [
+        "medicine",
+        "drug",
+        "medication"
+      ],
+      "note": "",
+      "pinyin": "yào",
+      "tone": 4,
+      "sentence": "我每天都吃药。",
+      "sentencePinyin": "Wǒ měitiān dōu chī yào.",
+      "sentenceTranslation": "I take medicine every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:39.016Z"
+    },
+    "身体": {
+      "translations": [
+        "body"
+      ],
+      "note": "",
+      "pinyin": "shēntǐ",
+      "tone": 3,
+      "sentence": "他的身体很健康。",
+      "sentencePinyin": "Tā de shēntǐ hěn jiànkāng.",
+      "sentenceTranslation": "His body is very healthy.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:41.780Z"
+    },
+    "黑": {
+      "translations": [
+        "black"
+      ],
+      "note": "",
+      "pinyin": "hēi",
+      "tone": 1,
+      "sentence": "他的车是黑色的。",
+      "sentencePinyin": "Tā de chē shì hēisè de.",
+      "sentenceTranslation": "His car is black.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:44.589Z"
+    },
+    "咖啡": {
+      "translations": [
+        "coffee"
+      ],
+      "note": "",
+      "pinyin": "kāfēi",
+      "tone": 1,
+      "sentence": "我每天早上喝一杯咖啡。",
+      "sentencePinyin": "Wǒ měitiān zǎoshang hē yī bēi kāfēi.",
+      "sentenceTranslation": "I drink a cup of coffee every morning.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:47.622Z"
+    },
+    "日": {
+      "translations": [
+        "sun",
+        "day",
+        "date",
+        "sunshine"
+      ],
+      "note": "",
+      "pinyin": "rì",
+      "tone": 4,
+      "sentence": "今天是星期几？",
+      "sentencePinyin": "Jīntiān shì xīngqī jǐ?",
+      "sentenceTranslation": "What day of the week is today?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:50.689Z"
+    },
+    "休息": {
+      "translations": [
+        "rest",
+        "break",
+        "recess"
+      ],
+      "note": "",
+      "pinyin": "xiū xí",
+      "tone": 4,
+      "sentence": "我每天中午会休息一会儿。",
+      "sentencePinyin": "Wǒ měitiān zhōngwǔ huì xiūxí yíhuìr.",
+      "sentenceTranslation": "I take a break every noon.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:54.003Z"
+    },
+    "外": {
+      "translations": [
+        "outside",
+        "external",
+        "foreign"
+      ],
+      "note": "used to indicate outside or external",
+      "pinyin": "wài",
+      "tone": 4,
+      "sentence": "我在外面等你。",
+      "sentencePinyin": "Wǒ zài wàimiàn děng nǐ.",
+      "sentenceTranslation": "I am waiting for you outside.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:55.302Z"
+    },
+    "生日": {
+      "translations": [
+        "birthday"
+      ],
+      "note": "",
+      "pinyin": "shēngrì",
+      "tone": 4,
+      "sentence": "我的生日是九月十日。",
+      "sentencePinyin": "Wǒ de shēngrì shì jiǔ yuè shí rì.",
+      "sentenceTranslation": "My birthday is September 10th.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:56.935Z"
+    },
+    "哥哥": {
+      "translations": [
+        "older brother"
+      ],
+      "note": "",
+      "pinyin": "gēgē",
+      "tone": 1,
+      "sentence": "我有一个哥哥。",
+      "sentencePinyin": "Wǒ yǒu yí gè gēgē.",
+      "sentenceTranslation": "I have an older brother.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:47:59.497Z"
+    },
+    "票": {
+      "translations": [
+        "ticket",
+        "note",
+        "voucher",
+        "bill"
+      ],
+      "note": "used for tickets, notes, or vouchers",
+      "pinyin": "piào",
+      "tone": 4,
+      "sentence": "我买了一张火车票。",
+      "sentencePinyin": "Wǒ mǎile yī zhāng huǒchē piào.",
+      "sentenceTranslation": "I bought a train ticket.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:03.098Z"
+    },
+    "手机": {
+      "translations": [
+        "mobile phone",
+        "cell phone",
+        "smartphone"
+      ],
+      "note": "commonly refers to a mobile or cell phone",
+      "pinyin": "shǒu jī",
+      "tone": 3,
+      "sentence": "我每天都用手机上网。",
+      "sentencePinyin": "Wǒ měitiān dōu yòng shǒu jī shàngwǎng.",
+      "sentenceTranslation": "I use my mobile phone to go online every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:06.474Z"
+    },
+    "洗": {
+      "translations": [
+        "wash",
+        "clean"
+      ],
+      "note": "",
+      "pinyin": "xǐ",
+      "tone": 3,
+      "sentence": "我每天都去洗澡。",
+      "sentencePinyin": "Wǒ měitiān dōu qù xǐzǎo.",
+      "sentenceTranslation": "I take a shower every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:07.788Z"
+    },
+    "跳舞": {
+      "translations": [
+        "dance"
+      ],
+      "note": "",
+      "pinyin": "tiàowǔ",
+      "tone": 4,
+      "sentence": "她喜欢跳舞。",
+      "sentencePinyin": "Tā xǐhuān tiàowǔ.",
+      "sentenceTranslation": "She likes to dance.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:09.857Z"
+    },
+    "弟弟": {
+      "translations": [
+        "younger brother"
+      ],
+      "note": "",
+      "pinyin": "dìdi",
+      "tone": 4,
+      "sentence": "我的弟弟很喜欢踢足球。",
+      "sentencePinyin": "Wǒ de dìdi hěn xǐhuān tī zúqiú.",
+      "sentenceTranslation": "My younger brother really likes playing football.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:12.001Z"
+    },
+    "妹妹": {
+      "translations": [
+        "younger sister"
+      ],
+      "note": "",
+      "pinyin": "mèimei",
+      "tone": 4,
+      "sentence": "我的妹妹喜欢画画。",
+      "sentencePinyin": "Wǒ de mèimei xǐhuān huàhuà.",
+      "sentenceTranslation": "My younger sister likes to draw.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:13.846Z"
+    },
+    "红": {
+      "translations": [
+        "red"
+      ],
+      "note": "",
+      "pinyin": "hóng",
+      "tone": 2,
+      "sentence": "她穿了一件红色的裙子。",
+      "sentencePinyin": "Tā chuānle yī jiàn hóngsè de qúnzi.",
+      "sentenceTranslation": "She is wearing a red dress.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:15.792Z"
+    },
+    "慢": {
+      "translations": [
+        "slow",
+        "deliberate",
+        "unhurried"
+      ],
+      "note": "used to describe speed or pace",
+      "pinyin": "màn",
+      "tone": 4,
+      "sentence": "他走得很慢。",
+      "sentencePinyin": "Tā zǒu dé hěn màn.",
+      "sentenceTranslation": "He walks very slowly.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:18.760Z"
+    },
+    "近": {
+      "translations": [
+        "near",
+        "close"
+      ],
+      "note": "indicates proximity or closeness",
+      "pinyin": "jìn",
+      "tone": 4,
+      "sentence": "我家离学校很近。",
+      "sentencePinyin": "Wǒ jiā lí xuéxiào hěn jìn.",
+      "sentenceTranslation": "My home is very close to the school.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:21.936Z"
+    },
+    "白": {
+      "translations": [
+        "white"
+      ],
+      "note": "",
+      "pinyin": "bái",
+      "tone": 2,
+      "sentence": "这件衣服是白色的。",
+      "sentencePinyin": "Zhè jiàn yīfú shì báisè de.",
+      "sentenceTranslation": "This piece of clothing is white.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:24.806Z"
+    },
+    "姐姐": {
+      "translations": [
+        "older sister"
+      ],
+      "note": "",
+      "pinyin": "jiějie",
+      "tone": 4,
+      "sentence": "我姐姐在学校工作。",
+      "sentencePinyin": "Wǒ jiějie zài xuéxiào gōngzuò.",
+      "sentenceTranslation": "My older sister works at the school.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:27.449Z"
+    },
+    "介绍": {
+      "translations": [
+        "introduce",
+        "introduction"
+      ],
+      "note": "",
+      "pinyin": "jiè shào",
+      "tone": 4,
+      "sentence": "我可以介绍一下自己吗？",
+      "sentencePinyin": "Wǒ kěyǐ jièshào yíxià zìjǐ ma?",
+      "sentenceTranslation": "Can I introduce myself?",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:29.311Z"
+    },
+    "鱼": {
+      "translations": [
+        "fish"
+      ],
+      "note": "",
+      "pinyin": "yú",
+      "tone": 2,
+      "sentence": "我喜欢吃鱼。",
+      "sentencePinyin": "Wǒ xǐhuān chī yú.",
+      "sentenceTranslation": "I like to eat fish.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:32.072Z"
+    },
+    "累": {
+      "translations": [
+        "tired",
+        "fatigued"
+      ],
+      "note": "used to describe feeling tired or exhausted",
+      "pinyin": "lèi",
+      "tone": 4,
+      "sentence": "我很累，需要休息。",
+      "sentencePinyin": "Wǒ hěn lèi, xūyào xiūxi.",
+      "sentenceTranslation": "I am very tired and need to rest.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:34.736Z"
+    },
+    "课": {
+      "translations": [
+        "lesson",
+        "class",
+        "course"
+      ],
+      "note": "",
+      "pinyin": "kè",
+      "tone": 4,
+      "sentence": "我今天有数学课。",
+      "sentencePinyin": "Wǒ jīntiān yǒu shùxué kè.",
+      "sentenceTranslation": "I have a math class today.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:37.619Z"
+    },
+    "上班": {
+      "translations": [
+        "go to work",
+        "start work"
+      ],
+      "note": "",
+      "pinyin": "shàngbān",
+      "tone": 4,
+      "sentence": "我每天早上九点上班。",
+      "sentencePinyin": "Wǒ měitiān zǎoshang jiǔ diǎn shàngbān.",
+      "sentenceTranslation": "I go to work at 9 every morning.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:40.659Z"
+    },
+    "旁边": {
+      "translations": [
+        "beside",
+        "next to",
+        "by the side of"
+      ],
+      "note": "",
+      "pinyin": "pángbiān",
+      "tone": 2,
+      "sentence": "书桌在窗户旁边。",
+      "sentencePinyin": "Shūzhuō zài chuānghù pángbiān.",
+      "sentenceTranslation": "The desk is next to the window.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:42.621Z"
+    },
+    "运动": {
+      "translations": [
+        "movement",
+        "exercise",
+        "sports"
+      ],
+      "note": "refers to physical activity or sports",
+      "pinyin": "yùndòng",
+      "tone": 4,
+      "sentence": "我每天都去运动。",
+      "sentencePinyin": "Wǒ měitiān dōu qù yùndòng.",
+      "sentenceTranslation": "I exercise every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:44.466Z"
+    },
+    "去年": {
+      "translations": [
+        "last year"
+      ],
+      "note": "",
+      "pinyin": "qùnián",
+      "tone": 4,
+      "sentence": "去年我去了北京。",
+      "sentencePinyin": "Qùnián wǒ qùle Běijīng.",
+      "sentenceTranslation": "Last year I went to Beijing.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:47.433Z"
+    },
+    "报纸": {
+      "translations": [
+        "newspaper"
+      ],
+      "note": "",
+      "pinyin": "bàozhǐ",
+      "tone": 4,
+      "sentence": "我每天都看报纸获取新闻。",
+      "sentencePinyin": "Wǒ měitiān dōu kàn bàozhǐ huòqǔ xīnwén.",
+      "sentenceTranslation": "I read the newspaper every day to get the news.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:50.201Z"
+    },
+    "颜色": {
+      "translations": [
+        "color"
+      ],
+      "note": "",
+      "pinyin": "yánsè",
+      "tone": 4,
+      "sentence": "我喜欢这个颜色。",
+      "sentencePinyin": "Wǒ xǐhuān zhège yánsè.",
+      "sentenceTranslation": "I like this color.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:51.936Z"
+    },
+    "机场": {
+      "translations": [
+        "airport"
+      ],
+      "note": "",
+      "pinyin": "jī chǎng",
+      "tone": 3,
+      "sentence": "我每天早上去机场接朋友。",
+      "sentencePinyin": "Wǒ měitiān zǎoshang qù jīchǎng jiē péngyǒu.",
+      "sentenceTranslation": "I go to the airport to pick up friends every morning.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:55.107Z"
+    },
+    "唱歌": {
+      "translations": [
+        "singing"
+      ],
+      "note": "",
+      "pinyin": "chàng gē",
+      "tone": 4,
+      "sentence": "我喜欢唱歌。",
+      "sentencePinyin": "Wǒ xǐhuān chànggē.",
+      "sentenceTranslation": "I like singing.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:56.847Z"
+    },
+    "千": {
+      "translations": [
+        "thousand"
+      ],
+      "note": "",
+      "pinyin": "qiān",
+      "tone": 1,
+      "sentence": "我有一千块钱。",
+      "sentencePinyin": "Wǒ yǒu yī qiān kuài qián.",
+      "sentenceTranslation": "I have a thousand yuan.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:48:58.403Z"
+    },
+    "好吃": {
+      "translations": [
+        "delicious",
+        "tasty",
+        "good to eat"
+      ],
+      "note": "",
+      "pinyin": "hǎo chī",
+      "tone": 3,
+      "sentence": "这个菜非常好吃。",
+      "sentencePinyin": "Zhège cài fēicháng hǎo chī.",
+      "sentenceTranslation": "This dish is very delicious.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:01.456Z"
+    },
+    "考试": {
+      "translations": [
+        "test",
+        "examination"
+      ],
+      "note": "",
+      "pinyin": "kǎo shì",
+      "tone": 4,
+      "sentence": "我明天有考试。",
+      "sentencePinyin": "Wǒ míngtiān yǒu kǎoshì.",
+      "sentenceTranslation": "I have an exam tomorrow.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:03.508Z"
+    },
+    "左边": {
+      "translations": [
+        "left side"
+      ],
+      "note": "",
+      "pinyin": "zuǒbiān",
+      "tone": 3,
+      "sentence": "请在左边等我。",
+      "sentencePinyin": "Qǐng zài zuǒbiān děng wǒ.",
+      "sentenceTranslation": "Please wait for me on the left side.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:06.059Z"
+    },
+    "姓": {
+      "translations": [
+        "surname",
+        "family name"
+      ],
+      "note": "family name or surname",
+      "pinyin": "xìng",
+      "tone": 4,
+      "sentence": "他的姓是王。",
+      "sentencePinyin": "Tā de xìng shì Wáng.",
+      "sentenceTranslation": "His surname is Wang.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:08.830Z"
+    },
+    "百": {
+      "translations": [
+        "hundred"
+      ],
+      "note": "",
+      "pinyin": "bǎi",
+      "tone": 3,
+      "sentence": "我有一百块钱。",
+      "sentencePinyin": "Wǒ yǒu yī bǎi kuài qián.",
+      "sentenceTranslation": "I have one hundred yuan.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:10.983Z"
+    },
+    "雪": {
+      "translations": [
+        "snow"
+      ],
+      "note": "",
+      "pinyin": "xuě",
+      "tone": 4,
+      "sentence": "今天天气下雪了。",
+      "sentencePinyin": "Jīntiān tiānqì xià xuě le.",
+      "sentenceTranslation": "It is snowing today.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:12.620Z"
+    },
+    "贵": {
+      "translations": [
+        "precious",
+        "valuable",
+        "honorable",
+        "noble",
+        "expensive"
+      ],
+      "note": "used to indicate respect or high value",
+      "pinyin": "guì",
+      "tone": 4,
+      "sentence": "这本书很贵。",
+      "sentencePinyin": "Zhè běn shū hěn guì.",
+      "sentenceTranslation": "This book is very expensive.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:14.972Z"
+    },
+    "生病": {
+      "translations": [
+        "to fall ill",
+        "to get sick"
+      ],
+      "note": "",
+      "pinyin": "shēngbìng",
+      "tone": 1,
+      "sentence": "我今天生病了，不能去上班。",
+      "sentencePinyin": "Wǒ jīntiān shēngbìng le, bùnéng qù shàngbān.",
+      "sentenceTranslation": "I am sick today and cannot go to work.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:18.456Z"
+    },
+    "游泳": {
+      "translations": [
+        "swim"
+      ],
+      "note": "",
+      "pinyin": "yóuyǒng",
+      "tone": 4,
+      "sentence": "我每天都去游泳。",
+      "sentencePinyin": "Wǒ měitiān dōu qù yóuyǒng.",
+      "sentenceTranslation": "I go swimming every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:21.627Z"
+    },
+    "牛奶": {
+      "translations": [
+        "milk"
+      ],
+      "note": "",
+      "pinyin": "niú nǎi",
+      "tone": 3,
+      "sentence": "我喜欢喝牛奶。",
+      "sentencePinyin": "Wǒ xǐhuān hē niú nǎi.",
+      "sentenceTranslation": "I like to drink milk.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:24.393Z"
+    },
+    "右边": {
+      "translations": [
+        "right side"
+      ],
+      "note": "",
+      "pinyin": "yòubiān",
+      "tone": 4,
+      "sentence": "请在右边等我。",
+      "sentencePinyin": "Qǐng zài yòubiān děng wǒ.",
+      "sentenceTranslation": "Please wait for me on the right side.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:26.234Z"
+    },
+    "便宜": {
+      "translations": [
+        "cheap",
+        "inexpensive",
+        "favorable"
+      ],
+      "note": "often means inexpensive or good value",
+      "pinyin": "piányi",
+      "tone": 2,
+      "sentence": "这件衣服很便宜。",
+      "sentencePinyin": "Zhè jiàn yīfú hěn piányi.",
+      "sentenceTranslation": "This piece of clothing is very cheap.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:28.490Z"
+    },
+    "起床": {
+      "translations": [
+        "get up from bed",
+        "wake up"
+      ],
+      "note": "",
+      "pinyin": "qǐchuáng",
+      "tone": 3,
+      "sentence": "我每天早上七点起床。",
+      "sentencePinyin": "Wǒ měitiān zǎoshang qī diǎn qǐchuáng.",
+      "sentenceTranslation": "I get up at 7 o'clock every morning.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:31.384Z"
+    },
+    "鸡蛋": {
+      "translations": [
+        "egg"
+      ],
+      "note": "",
+      "pinyin": "jīdàn",
+      "tone": 4,
+      "sentence": "我每天吃一个鸡蛋。",
+      "sentencePinyin": "Wǒ měitiān chī yī gè jīdàn.",
+      "sentenceTranslation": "I eat an egg every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:34.224Z"
+    },
+    "题": {
+      "translations": [
+        "topic",
+        "title",
+        "question",
+        "problem",
+        "exam question"
+      ],
+      "note": "used for questions, topics, or titles",
+      "pinyin": "tí",
+      "tone": 2,
+      "sentence": "这是一道难题。",
+      "sentencePinyin": "Zhè shì yī dào nántí.",
+      "sentenceTranslation": "This is a difficult question.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:36.268Z"
+    },
+    "零": {
+      "translations": [
+        "zero",
+        "null",
+        "nothing"
+      ],
+      "note": "",
+      "pinyin": "líng",
+      "tone": 2,
+      "sentence": "今天的温度是零度。",
+      "sentencePinyin": "Jīntiān de wēndù shì líng dù.",
+      "sentenceTranslation": "Today's temperature is zero degrees.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:39.406Z"
+    },
+    "手表": {
+      "translations": [
+        "watch",
+        "wristwatch"
+      ],
+      "note": "",
+      "pinyin": "shǒu biǎo",
+      "tone": 3,
+      "sentence": "我买了一只新手表。",
+      "sentencePinyin": "Wǒ mǎile yī zhī xīn shǒubiǎo.",
+      "sentenceTranslation": "I bought a new watch.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:41.430Z"
+    },
+    "旅游": {
+      "translations": [
+        "tourism",
+        "travel",
+        "trip"
+      ],
+      "note": "travel, tourism",
+      "pinyin": "lǚ yóu",
+      "tone": 3,
+      "sentence": "我打算这个假期去旅游。",
+      "sentencePinyin": "Wǒ dǎsuàn zhège jiàqī qù lǚyóu.",
+      "sentenceTranslation": "I plan to travel during this holiday.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:43.193Z"
+    },
+    "服务员": {
+      "translations": [
+        "service staff",
+        "waiter",
+        "waitress"
+      ],
+      "note": "restaurant staff who serve customers",
+      "pinyin": "fúwùyuán",
+      "tone": "4",
+      "sentence": "服务员帮我点了菜。",
+      "sentencePinyin": "Fúwùyuán bāng wǒ diǎn le cài.",
+      "sentenceTranslation": "The waiter helped me order the dishes.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:44.770Z"
+    },
+    "宾馆": {
+      "translations": [
+        "hotel",
+        "guesthouse"
+      ],
+      "note": "hotel or guesthouse",
+      "pinyin": "bīnguǎn",
+      "tone": 4,
+      "sentence": "我在宾馆住了三天。",
+      "sentencePinyin": "Wǒ zài bīnguǎn zhùle sān tiān.",
+      "sentenceTranslation": "I stayed at the hotel for three days.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:47.942Z"
+    },
+    "教室": {
+      "translations": [
+        "classroom"
+      ],
+      "note": "",
+      "pinyin": "jiàoshì",
+      "tone": 4,
+      "sentence": "学生们在教室里学习。",
+      "sentencePinyin": "Xuéshēngmen zài jiàoshì lǐ xuéxí.",
+      "sentenceTranslation": "The students are studying in the classroom.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:50.812Z"
+    },
+    "跑步": {
+      "translations": [
+        "run",
+        "jog"
+      ],
+      "note": "",
+      "pinyin": "pǎobù",
+      "tone": 3,
+      "sentence": "我每天早上跑步锻炼身体。",
+      "sentencePinyin": "Wǒ měitiān zǎoshang pǎobù duànliàn shēntǐ.",
+      "sentenceTranslation": "I run every morning to exercise.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:53.370Z"
+    },
+    "阴": {
+      "translations": [
+        "shade",
+        "shadow",
+        "hidden",
+        "negative",
+        "yin"
+      ],
+      "note": "often refers to阴阳 (yin-yang) or negative/hidden aspects",
+      "pinyin": "yīn",
+      "tone": 1,
+      "sentence": "树荫下很凉快。",
+      "sentencePinyin": "Shù yīn xià hěn liángkuai.",
+      "sentenceTranslation": "It's cool under the shade of the tree.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:55.929Z"
+    },
+    "面条": {
+      "translations": [
+        "noodle"
+      ],
+      "note": "",
+      "pinyin": "miàn tiáo",
+      "tone": "4",
+      "sentence": "我喜欢吃面条。",
+      "sentencePinyin": "Wǒ xǐhuān chī miàntiáo.",
+      "sentenceTranslation": "I like to eat noodles.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:49:58.387Z"
+    },
+    "铅笔": {
+      "translations": [
+        "pencil"
+      ],
+      "note": "",
+      "pinyin": "qiānbǐ",
+      "tone": 1,
+      "sentence": "我用铅笔画了一幅画。",
+      "sentencePinyin": "Wǒ yòng qiānbǐ huà le yī fú huà.",
+      "sentenceTranslation": "I drew a picture with a pencil.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:50:00.434Z"
+    },
+    "火车站": {
+      "translations": [
+        "train station"
+      ],
+      "note": "",
+      "pinyin": "huǒ chē zhàn",
+      "tone": 4,
+      "sentence": "我每天早上去火车站等朋友。",
+      "sentencePinyin": "Wǒ měitiān zǎoshang qù huǒchēzhàn děng péngyǒu.",
+      "sentenceTranslation": "I go to the train station every morning to wait for my friends.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:50:03.716Z"
+    },
+    "西瓜": {
+      "translations": [
+        "watermelon"
+      ],
+      "note": "",
+      "pinyin": "xī guā",
+      "tone": 1,
+      "sentence": "我喜欢吃西瓜。",
+      "sentencePinyin": "Wǒ xǐ huān chī xī guā.",
+      "sentenceTranslation": "I like to eat watermelon.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:50:06.689Z"
+    },
+    "羊肉": {
+      "translations": [
+        "lamb meat",
+        "mutton"
+      ],
+      "note": "",
+      "pinyin": "yángròu",
+      "tone": 2,
+      "sentence": "我喜欢吃羊肉火锅。",
+      "sentencePinyin": "Wǒ xǐhuān chī yángròu huǒguō.",
+      "sentenceTranslation": "I like to eat mutton hotpot.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:50:09.966Z"
+    },
+    "晴": {
+      "translations": [
+        "clear",
+        "sunny",
+        "bright"
+      ],
+      "note": "",
+      "pinyin": "qíng",
+      "tone": 2,
+      "sentence": "今天天气晴朗。",
+      "sentencePinyin": "Jīntiān tiānqì qínglǎng.",
+      "sentenceTranslation": "The weather is clear today.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:50:13.140Z"
+    },
+    "公共汽车": {
+      "translations": [
+        "public bus",
+        "bus"
+      ],
+      "note": "",
+      "pinyin": "gōnggòng qìchē",
+      "tone": 4,
+      "sentence": "我每天坐公共汽车去学校。",
+      "sentencePinyin": "Wǒ měitiān zuò gōnggòng qìchē qù xuéxiào.",
+      "sentenceTranslation": "I take the bus to school every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:50:16.825Z"
+    },
+    "打篮球": {
+      "translations": [
+        "play basketball",
+        "playing basketball"
+      ],
+      "note": "",
+      "pinyin": "dǎ lán qiú",
+      "tone": "3",
+      "sentence": "我喜欢打篮球。",
+      "sentencePinyin": "Wǒ xǐhuān dǎ lán qiú.",
+      "sentenceTranslation": "I like playing basketball.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:50:20.413Z"
+    },
+    "踢足球": {
+      "translations": [
+        "kick football",
+        "play football",
+        "soccer"
+      ],
+      "note": "play football",
+      "pinyin": "tī zúqiú",
+      "tone": 4,
+      "sentence": "我每天都踢足球。",
+      "sentencePinyin": "Wǒ měitiān dōu tī zúqiú.",
+      "sentenceTranslation": "I play football every day.",
+      "sentenceDefinition": "",
+      "comment": "",
+      "level": -1,
+      "createdAt": "2025-07-29T12:50:23.379Z"
+    }
+  },
+  "description": "Old HSK 2 vocabulary deck"
+}
