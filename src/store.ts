@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { LLM } from "./llm";
+import { LLM } from "./LLM";
 import zlib from "zlib"
 import { GREEN_TICK } from "./utils";
 
