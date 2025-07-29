@@ -2,10 +2,12 @@ import fs from "fs";
 import path from "path";
 import { LLM } from "./llm";
 import zlib from "zlib"
+import { GREEN_TICK } from "./utils";
 
 const linuxConfigPath = path.join(process.env.HOME || "~", ".hzcli");
 const windowsConfigPath = path.join(process.env.APPDATA || "~", "hzcli");
 const configPath = process.platform === "win32" ? windowsConfigPath : linuxConfigPath;
+const defaultDecksPath = __dirname
 
 export class Store {
 	private metadata: StoreMetadata = { llmApiKey: "", decks: [] };
@@ -293,6 +295,7 @@ export function getStore(): Store {
 	const storePath = path.join(configPath, "store.json")
 	const deckFolder = path.join(configPath, "decks");
 
+	// CREATE STORE FILE
 	if (!fs.existsSync(storePath)) {
 		if (!fs.existsSync(configPath)) {
 			fs.mkdirSync(configPath, { recursive: true });
@@ -300,15 +303,34 @@ export function getStore(): Store {
 		fs.writeFileSync(storePath, JSON.stringify(baseMetadata, null, 2));
 	}
 
+	// CREATE DECKS FOLDER
 	if (!fs.existsSync(deckFolder)) {
 		fs.mkdirSync(deckFolder);
 	}
 
+	// CREATE DEFAULT DECK
 	const defaultDeckPath = path.join(deckFolder, "default.json");
 	if (!fs.existsSync(defaultDeckPath)) {
 		fs.writeFileSync(defaultDeckPath, JSON.stringify(defaultDeck, null, 2));
 	}
 
+	// LOAD BASE DECKS
+	const defaultDekcs = fs.readdirSync(path.join(defaultDecksPath, "base_decks"))
+		.filter(file => file.endsWith(".json"))
+		.map(file => path.basename(file, ".json"));
+
+	for (const deckName of defaultDekcs) {
+		const deckPath = path.join(deckFolder, `${deckName}.json`);
+		if (!fs.existsSync(deckPath)) {
+			const deckContent = fs.readFileSync(path.join(defaultDecksPath, "base_decks", `${deckName}.json`), "utf8");
+			fs.writeFileSync(deckPath, deckContent, "utf8");
+			baseMetadata.decks.push(deckName);
+			fs.writeFileSync(storePath, JSON.stringify(baseMetadata, null, 2), "utf8");
+			console.debug(GREEN_TICK, `Added base deck: ${deckName}`);
+		}
+	}
+
+	// LOAD STORE FILE
 	const json = fs.readFileSync(storePath, "utf8");
 	return new Store(json);
 }
