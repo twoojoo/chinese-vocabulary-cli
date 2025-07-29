@@ -1,5 +1,7 @@
 # Hanzi-CLI
 
+> WORK IN PROGRESS
+
 This is a CLI tool to create and manage your personal knowledge of chinese characters and words.
 
 ## Main features
