@@ -2,6 +2,8 @@ import { Command } from "commander";
 import { getStore } from "./store";
 
 export const phrase = new Command("phrase")
+	.alias("phrases")
+	.alias("ph")
 	.alias("p")
 	.description("Manage your phrases")
 

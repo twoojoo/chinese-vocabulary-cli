@@ -4,6 +4,8 @@ import table from "as-table"
 import fs from "fs"
 
 export const deck = new Command("deck")
+	.alias("decks")
+	.alias("dk")
 	.alias("d")
 	.description("Manage your decks")
 

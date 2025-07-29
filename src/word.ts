@@ -12,6 +12,8 @@ import {
 } from "./utils";
 
 export const word = new Command("word")
+	.alias("words")
+	.alias("wd")
 	.alias("w")
 	.description("Manage your words")
 
