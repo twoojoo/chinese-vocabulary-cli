@@ -2,7 +2,7 @@
   "name": "hanzi-cli",
   "version": "0.0.4",
   "bin": {
-    "hzicli": "node ./dist/index.js"
+    "hzcli": "node ./dist/index.js"
   },
   "scripts": {
     "prepare": "npm run build",
